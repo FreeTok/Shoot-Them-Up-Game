@@ -1,0 +1,2 @@
+D:\My Games\Git\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h
+D:\My Games\Git\ShootThemUp\Source\ShootThemUp\ShootThemUp.h
