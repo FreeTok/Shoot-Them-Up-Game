@@ -259,11 +259,11 @@
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
 /I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/I "D:\My Games\Git\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine"
-/Yc"D:\My Games\Git\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\My Games\Git\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\My Games\Git\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
-/Fo"D:\My Games\Git\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+/I "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine"
+/Yc"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.cpp"
+/Fo"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
 /TP
 /GR-
 /W4

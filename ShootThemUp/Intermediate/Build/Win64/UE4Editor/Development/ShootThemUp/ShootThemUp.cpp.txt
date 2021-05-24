@@ -1,2 +1,2 @@
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\ShootThemUp.h
+D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h
+D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\ShootThemUp.h

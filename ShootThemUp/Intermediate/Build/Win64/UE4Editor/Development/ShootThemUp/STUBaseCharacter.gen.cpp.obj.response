@@ -31,7 +31,7 @@
 /wd4244
 /wd4838
 /I .
-/I "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Private"
+/I "D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -231,9 +231,9 @@
 /I Editor\Kismet\Public
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\ClothingSystemRuntimeInterface
 /I Runtime\ClothingSystemRuntimeInterface\Public
-/I "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp"
-/I "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source"
-/I "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Public"
+/I "D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp"
+/I "D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Source"
+/I "D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Public"
 /I ThirdParty\PhysX3\PxShared\include
 /I ThirdParty\PhysX3\PxShared\include\cudamanager
 /I ThirdParty\PhysX3\PxShared\include\filebuf
@@ -259,16 +259,16 @@
 /I ThirdParty\PhysX3\APEX_1.4\shared\internal\include
 /I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\INCLUDE"
 /I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
-/FI"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Yu"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
-/Fp"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
-"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUBaseCharacter.gen.cpp"
-/FI"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h"
-/Fo"D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\STUBaseCharacter.gen.cpp.obj"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.19041.0\winrt"
+/FI"D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Yu"D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h"
+/Fp"D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.pch"
+"D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUBaseCharacter.gen.cpp"
+/FI"D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h"
+/Fo"D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\STUBaseCharacter.gen.cpp.obj"
 /TP
 /GR-
 /W4

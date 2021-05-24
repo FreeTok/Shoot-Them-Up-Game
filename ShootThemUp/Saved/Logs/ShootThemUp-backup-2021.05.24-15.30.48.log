@@ -1,0 +1,1744 @@
+﻿Log file open, 05/24/21 18:14:16
+LogInit: LLM is enabled
+LogInit: LLM CsvWriter: off TraceWriter: off
+LogInit: Display: Running engine for game: ShootThemUp
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.198360
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +3:00, Platform Override: ''
+LogPluginManager: Mounting plugin MeshPainting
+LogPluginManager: Mounting plugin XGEController
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin EnvironmentQueryEditor
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CameraShakePreviewer
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin Niagara
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AutomationUtils
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin ChaosCloth
+LogPluginManager: Mounting plugin ChaosEditor
+LogPluginManager: Mounting plugin ChaosClothEditor
+LogPluginManager: Mounting plugin ChaosNiagara
+LogPluginManager: Mounting plugin ChaosSolverPlugin
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin GeometryCollectionPlugin
+LogPluginManager: Mounting plugin GeometryProcessing
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin CurveEditorTools
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GeometryMode
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin MotoSynth
+LogPluginManager: Mounting plugin PlanarCut
+LogPluginManager: Mounting plugin PlatformCrypto
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin LuminPlatformFeatures
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MagicLeapLightEstimation
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin MagicLeapPassableWorld
+LogPluginManager: Mounting plugin MLSDK
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin TemplateSequence
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin AssetTags
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin AudioSynesthesia
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin ChunkDownloader
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin GooglePAD
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin PostSplashScreen
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin PropertyAccessEditor
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SoundFields
+LogPluginManager: Mounting plugin Synthesis
+LogPluginManager: Mounting plugin ScreenshotTools
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin PlasticSourceControl
+LogPluginManager: Mounting plugin PluginUtils
+LogPluginManager: Mounting plugin PropertyAccessNode
+LogPluginManager: Mounting plugin RiderSourceCodeAccess
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin ContentBrowserAssetDataSource
+LogPluginManager: Mounting plugin ContentBrowserClassDataSource
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin SteamVR
+LogXGEController: Cleaning working directory: C:/Users/VRAR12/AppData/Local/Temp/UnrealXGEWorkingDir/
+LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+LogInit: Warning: Incompatible or missing module: ShootThemUp
+Running C:/Program Files/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/ShootThemUp.uproject" -TargetType=Editor -Progress -NoEngineChanges -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game).
+Creating makefile for ShootThemUpEditor (.uproject file is newer)
+@progress push 5%
+Parsing headers for ShootThemUpEditor
+  Running UnrealHeaderTool "D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\ShootThemUp.uproject" "D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\ShootThemUpEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\VRAR12\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+Reflection code generated for ShootThemUpEditor in 9,8035685 seconds
+@progress pop
+Building ShootThemUpEditor...
+Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 13 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 8%
+  [1/13] Default.rc2
+  @progress 'Compiling C++ source code...' 15%
+  [2/13] SharedPCH.Engine.ShadowErrors.cpp
+  @progress 'Compiling C++ source code...' 23%
+  [3/13] ShootThemUp.init.gen.cpp
+  @progress 'Compiling C++ source code...' 31%
+  [4/13] STUBaseCharacter.gen.cpp
+  @progress 'Compiling C++ source code...' 38%
+  [5/13] ShootThemUp.cpp
+  @progress 'Compiling C++ source code...' 46%
+  [6/13] STUPlayerController.cpp
+  @progress 'Compiling C++ source code...' 54%
+  [7/13] STUBaseCharacter.cpp
+  @progress 'Compiling C++ source code...' 62%
+  [8/13] STUPlayerController.gen.cpp
+  @progress 'Compiling C++ source code...' 69%
+  [9/13] STUGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 77%
+  [10/13] STUGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 85%
+  [11/13] UE4Editor-ShootThemUp.lib
+     ????????? ??????⥪? D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.lib ? ??ꥪ? D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.exp
+  @progress 'Compiling C++ source code...' 92%
+  [12/13] UE4Editor-ShootThemUp.dll
+     ????????? ??????⥪? D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.suppressed.lib ? ??ꥪ? D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [13/13] ShootThemUpEditor.target
+Total time in Parallel executor: 25,24 seconds
+Total execution time: 50,22 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogOnline: OSS: Creating online subsystem instance for: NULL
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+LogInit: Build: ++UE4+Release-4.26-CL-15973114
+LogInit: Engine Version: 4.26.2-15973114+++UE4+Release-4.26
+LogInit: Compatible Engine Version: 4.26.0-14830424+++UE4+Release-4.26
+LogInit: Net CL: 14830424
+LogInit: OS: Windows 10 (Release 2009) (), CPU: Intel(R) Core(TM) i7-7700K CPU @ 4.20GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Apr 12 2021 06:14:10
+LogInit: Compiled with Visual C++: 19.24.28315.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.26
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/UE_4.26/Engine/Binaries/Win64/
+LogInit: Allocator: TBB
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 29
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 4
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 40
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 37
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 3
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 4
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 44
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 12
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 3
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 15
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 43
+LogDevObjectVersion:   FortniteRelease (E7086368-6B23-4C58-8439-1B7016265E91): 1
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 10
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 10
+LogDevObjectVersion:   Dev-Physics-Ext (35F94A83-E258-406C-A318-09F59610247C): 40
+LogDevObjectVersion:   Dev-PhysicsMaterial-Chaos (B68FC16E-8B1B-42E2-B453-215C058844FE): 1
+LogDevObjectVersion:   Dev-CineCamera (B2E18506-4273-CFC2-A54E-F4BB758BBA07): 1
+LogDevObjectVersion:   Dev-VirtualProduction (64F58936-FD1B-42BA-BA96-7289D5D0FA4E): 1
+LogDevObjectVersion:   Dev-MediaFramework (6F0ED827-A609-4895-9C91-998D90180EA4): 2
+LogInit: Presizing for max 25165824 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:923][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2021.05.24-15.15.08:923][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[s.FlushStreamingOnExit:1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:25165824]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Setting CVar [[gc.MultithreadedDestructionEnabled:1]]
+[2021.05.24-15.15.08:924][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:924][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:929][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.24-15.15.08:929][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:929][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.05.24-15.15.08:930][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.05.24-15.15.08:930][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.24-15.15.08:930][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2021.05.24-15.15.08:930][  0]LogHAL: Display: Platform has ~ 16 GB [17116753920 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2021.05.24-15.15.08:930][  0]LogInit: Going up to parent DeviceProfile []
+[2021.05.24-15.15.08:931][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.VT.MaxAnisotropy:8]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.SSR.HalfResSceneColor:0]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.AnisotropicMaterials:1]]
+[2021.05.24-15.15.08:931][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SSGI.Quality:3]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.FastApplyOnOpaque:1 ; Always have FastSkyLUT 1 in this case to avoid wrong sky]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.SampleCountMaxPerSlice:4]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.AerialPerspectiveLUT.DepthResolution:16.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT:1]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMin:4.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.FastSkyLUT.SampleCountMax:128.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMin:4.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.SampleCountMax:128.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.UseSmallFormat:0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.TransmittanceLUT.SampleCount:10.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.SkyAtmosphere.MultiScatteringLUT.SampleCount:15.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Applying CVar settings from Section [ShadingQuality@3] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Scalability.ini]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.HairStrands.SkyLighting.IntegrationType:2]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.HairStrands.SkyAO.SampleCount:4]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Setting CVar [[r.HairStrands.Visibility.MSAA.SamplePerPixel:4]]
+[2021.05.24-15.15.08:932][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2021.05.24-15.15.08:933][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2021.05.24-15.15.08:933][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2021.05.24-15.15.08:933][  0]LogConfig: Setting CVar [[fx.SkipVectorVMBackendOptimizations:1]]
+[2021.05.24-15.15.08:933][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Engine.ini]
+[2021.05.24-15.15.08:933][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Config/Windows/Editor.ini]
+[2021.05.24-15.15.08:933][  0]LogInit: Computer: DESKTOP-6AFOUE8
+[2021.05.24-15.15.08:933][  0]LogInit: User: VRAR12
+[2021.05.24-15.15.08:933][  0]LogInit: CPU Page size=4096, Cores=4
+[2021.05.24-15.15.08:933][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2021.05.24-15.15.08:933][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2021.05.24-15.15.08:933][  0]LogMemory: Platform Memory Stats for Windows
+[2021.05.24-15.15.08:933][  0]LogMemory: Process Physical Memory: 139.21 MB used, 139.21 MB peak
+[2021.05.24-15.15.08:933][  0]LogMemory: Process Virtual Memory: 113.47 MB used, 113.47 MB peak
+[2021.05.24-15.15.08:933][  0]LogMemory: Physical Memory: 5283.28 MB used,  11040.53 MB free, 16323.81 MB total
+[2021.05.24-15.15.08:933][  0]LogMemory: Virtual Memory: 134206512.00 MB used,  11214.86 MB free, 134217728.00 MB total
+[2021.05.24-15.15.08:938][  0]LogWindows: WindowsPlatformFeatures enabled
+[2021.05.24-15.15.09:043][  0]LogInit: Physics initialised using underlying interface: PhysX
+[2021.05.24-15.15.09:044][  0]LogInit: Using OS detected language (ru-RU).
+[2021.05.24-15.15.09:044][  0]LogInit: Using OS detected locale (ru-RU).
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationManager: No specific localization for 'ru-RU' exists, so the 'ru' localization will be used.
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Editor/ru/Editor.locres' could not be opened for reading!
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/EditorTutorials/ru/EditorTutorials.locres' could not be opened for reading!
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Keywords/ru/Keywords.locres' could not be opened for reading!
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Category/ru/Category.locres' could not be opened for reading!
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/ToolTips/ru/ToolTips.locres' could not be opened for reading!
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/PropertyNames/ru/PropertyNames.locres' could not be opened for reading!
+[2021.05.24-15.15.09:050][  0]LogTextLocalizationResource: LocRes '../../../Engine/Content/Localization/Engine/ru/Engine.locres' could not be opened for reading!
+[2021.05.24-15.15.09:072][  0]LogInit: Setting process to per monitor DPI aware
+[2021.05.24-15.15.09:093][  0]LogWindowsTextInputMethodSystem: Display: IME system deactivated.
+[2021.05.24-15.15.09:137][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2021.05.24-15.15.09:137][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2021.05.24-15.15.09:754][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.24-15.15.09:754][  0]LogD3D11RHI: D3D11 min allowed feature level: 11_0
+[2021.05.24-15.15.09:754][  0]LogD3D11RHI: D3D11 max allowed feature level: 11_0
+[2021.05.24-15.15.09:754][  0]LogD3D11RHI: D3D11 adapters:
+[2021.05.24-15.15.09:830][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2021.05.24-15.15.09:830][  0]LogD3D11RHI:       6052/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2021.05.24-15.15.09:833][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2021.05.24-15.15.09:833][  0]LogD3D11RHI:       0/0/8161 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2021.05.24-15.15.09:833][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2021.05.24-15.15.09:837][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2021.05.24-15.15.09:837][  0]LogD3D11RHI:     GPU DeviceId: 0x1b83 (for the marketing name, search the web for "GPU Device Id")
+[2021.05.24-15.15.09:838][  0]LogWindows: EnumDisplayDevices:
+[2021.05.24-15.15.09:838][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2021.05.24-15.15.09:838][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.05.24-15.15.09:838][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.05.24-15.15.09:838][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2021.05.24-15.15.09:838][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2021.05.24-15.15.09:838][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2021.05.24-15.15.09:838][  0]LogD3D11RHI:   Driver Version: 456.71 (internal:27.21.14.5671, unified:456.71)
+[2021.05.24-15.15.09:838][  0]LogD3D11RHI:      Driver Date: 9-30-2020
+[2021.05.24-15.15.09:838][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2021.05.24-15.15.09:886][  0]LogD3D11RHI: RHI has support for 64 bit atomics
+[2021.05.24-15.15.09:887][  0]LogD3D11RHI: Async texture creation enabled
+[2021.05.24-15.15.09:887][  0]LogD3D11RHI: Array index from any shader is supported
+[2021.05.24-15.15.09:907][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2021.05.24-15.15.09:908][  0]LogRHI: GeForceNow SDK initialized: 1
+[2021.05.24-15.15.10:151][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AllDesktop'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTC'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXT'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'AndroidClient'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ASTCClient'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_DXTClient'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_ETC2Client'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_Multi'
+[2021.05.24-15.15.10:174][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Android_MultiClient'
+[2021.05.24-15.15.10:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOSClient'
+[2021.05.24-15.15.10:200][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'IOS'
+[2021.05.24-15.15.10:212][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Linux'
+[2021.05.24-15.15.10:221][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxNoEditor'
+[2021.05.24-15.15.10:230][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxClient'
+[2021.05.24-15.15.10:240][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxServer'
+[2021.05.24-15.15.10:249][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64NoEditor'
+[2021.05.24-15.15.10:259][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Client'
+[2021.05.24-15.15.10:268][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LinuxAArch64Server'
+[2021.05.24-15.15.10:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Lumin'
+[2021.05.24-15.15.10:295][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'LuminClient'
+[2021.05.24-15.15.10:304][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacNoEditor'
+[2021.05.24-15.15.10:314][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Mac'
+[2021.05.24-15.15.10:322][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacClient'
+[2021.05.24-15.15.10:330][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'MacServer'
+[2021.05.24-15.15.10:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOSClient'
+[2021.05.24-15.15.10:344][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'TVOS'
+[2021.05.24-15.15.10:355][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsNoEditor'
+[2021.05.24-15.15.10:365][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'Windows'
+[2021.05.24-15.15.10:374][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsClient'
+[2021.05.24-15.15.10:384][  0]LogTargetPlatformManager: Display: Loaded TargetPlatform 'WindowsServer'
+[2021.05.24-15.15.10:384][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2021.05.24-15.15.10:396][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2021.05.24-15.15.10:552][  0]LogRendererCore: Ray tracing is disabled. Reason: r.RayTracing=0.
+[2021.05.24-15.15.10:552][  0]LogShaderCompilers: Guid format shader working directory is -6 characters bigger than the processId version (D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Intermediate/Shaders/WorkingDirectory/7544/).
+[2021.05.24-15.15.10:552][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/VRAR12/AppData/Local/Temp/UnrealShaderWorkingDir/2FC3F9314ED7C50B82FCA98DB96BC18A/'.
+[2021.05.24-15.15.10:552][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2021.05.24-15.15.10:552][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2021.05.24-15.15.11:313][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2021.05.24-15.15.11:530][  0]LogDerivedDataCache: Loaded boot cache 0.22s 78MB C:/Users/VRAR12/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.05.24-15.15.11:530][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/VRAR12/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc
+[2021.05.24-15.15.11:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2021.05.24-15.15.11:530][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2021.05.24-15.15.11:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.24-15.15.11:530][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2021.05.24-15.15.11:553][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2021.05.24-15.15.11:553][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2021.05.24-15.15.11:553][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2021.05.24-15.15.11:571][  0]LogDerivedDataCache: Speed tests for C:/Users/VRAR12/AppData/Local/UnrealEngine/Common/DerivedDataCache took 0.02 seconds
+[2021.05.24-15.15.11:571][  0]LogDerivedDataCache: Display: Performance to C:/Users/VRAR12/AppData/Local/UnrealEngine/Common/DerivedDataCache: Latency=0.06ms. RandomReadSpeed=84.39MBs, RandomWriteSpeed=157.88MBs. Assigned SpeedClass 'Local'
+[2021.05.24-15.15.11:572][  0]LogDerivedDataCache: Using Local data cache path C:/Users/VRAR12/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2021.05.24-15.15.11:572][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2021.05.24-15.15.11:572][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2021.05.24-15.15.11:614][  0]LogSlate: Using FreeType 2.10.0
+[2021.05.24-15.15.11:614][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2021.05.24-15.15.11:647][  0]LogAssetRegistry: FAssetRegistry took 0.0025 seconds to start up
+[2021.05.24-15.15.11:924][  0]LogInit: Selected Device Profile: [Windows]
+[2021.05.24-15.15.11:924][  0]LogInit: Active device profile: [0000021BDBFCF600][0000021BD06FDCC0 49] Windows
+[2021.05.24-15.15.11:924][  0]LogInit: Profiles: [0000021BDBFCF600][0000021BD06FDCC0 49] Windows, [0000021BDBFD4C00][0000021BD0704180 49] WindowsNoEditor, [0000021BDBFCCC00][0000021BD0708300 49] WindowsServer, [0000021BDBFD6E00][0000021BD070C480 49] WindowsClient, [0000021BDBFCED00][0000021BDCC36600 49] IOS, [0000021BDBFD5500][0000021BDCC3A780 49] iPadAir, [0000021BDBFCD400][0000021BDCC3E900 49] iPadAir2, [0000021BDBF94800][0000021BDCC46BC0 49] IPadPro, [0000021BDBF94900][0000021BDCC42C00 49] iPadAir3, [0000021BDBFCE700][0000021BDCC4AD80 49] iPadAir4, [0000021BDBF97600][0000021BDCC4EF00 49] iPadMini2, [0000021BDBFCD900][0000021BDCC53080 49] iPadMini3, [0000021BDBF95F00][0000021BDCC57200 49] iPadMini4, [0000021BDBFCFB00][0000021BDCC5B380 49] iPadMini5, [0000021BDBFD4900][0000021BD0701600 49] iPhone6, [0000021BDBFD5D00][0000021BDCC5F640 49] iPodTouch6, [0000021BDBF8BE00][0000021BDCC67880 49] iPhone7, [0000021BDBF8BF00][0000021BDCC638C0 49] iPodTouch7, [0000021BDBFD4500][0000021BDCC6BA00 49] iPhone5S, [0000021BDBF89100][0000021BDCC73B80 49] iPhone6Plus, [0000021BDBFD4300][0000021BDCC77D00 49] iPhone6S, [0000021BDBF8A800][0000021BDCC7A1C0 49] iPhone6SPlus, [0000021BDBFD7900][0000021BDCC7E340 49] iPhone7Plus, [0000021BDBF89900][0000021BDCC824C0 49] iPhoneSE, [0000021BDBFD7400][0000021BDCC86640 49] iPhone8, [0000021BDBF8BD00][0000021BDCC8A7C0 49] iPhone8Plus, [0000021BDBFD7E00][0000021BDCC8E940 49] iPhoneX, [0000021BDBF88C00][0000021BDCC92AC0 49] iPhoneXS, [0000021BDBFD6800][0000021BDCC96C40 49] iPhoneXSMax, [0000021BDBF89600][0000021BDCC9ADC0 49] iPhoneXR, [0000021BDBFD6400][0000021BDCC9EF40 49] iPhone11, [0000021BDBF8A700][0000021BDCCA30C0 49] iPhone11Pro, [0000021BDBFD5F00][0000021BDCCA7240 49] iPhone11ProMax, [0000021BDBF89800][0000021BDCCAB3C0 49] iPhoneSE2, [0000021BDBFD4800][0000021BDCCAF540 49] iPhone12Mini, [0000021BDBF89300][0000021BDCC6F680 49] iPhone12, [0000021BDBFD4700][0000021BDCCB37C0 49] iPhone12Pro, [0000021BDBF8A200][0000021BDCCB7900 49] iPhone12ProMax, [0000021BDBFD4100][0000021BDCCBBA40 49] iPadPro105, [0000021BDBF88D00][0000021BDCCC3BC0 49] iPadPro129, [0000021BDBFD5300][0000021BDCCC7D40 49] iPadPro97, [0000021BDBF89000][0000021BDCCCA200 49] iPadPro2_129, [0000021BDBFD7F00][0000021BDCCCE380 49] iPad5, [0000021BDBF89B00][0000021BDCCD2500 49] iPad6, [0000021BDBFD4D00][0000021BDCCD6680 49] iPad7, [0000021BDBF8A600][0000021BDCCDA800 49] iPad8, [0000021BDBFD4600][0000021BDCCDE980 49] iPadPro11, [0000021BDBF8B300][0000021BDCCE2B00 49] iPadPro2_11, [0000021BDBFD5000][0000021BDCCE6C80 49] iPadPro3_129, [0000021BDBF88700][0000021BDCCEAE00 49] iPadPro4_129, [0000021BDBFD5A00][0000021BDCCEEF80 49] AppleTV, [0000021BDBF88F00][0000021BDCCF3100 49] AppleTV4K, [0000021BDBFD6D00][0000021BDCCF7280 49] TVOS, [0000021BDBF8B700][0000021BDCCFB400 49] Mac, [0000021BDBFD6300][0000021BDCCFF580 49] MacClient, [0000021BDBF89200][0000021BDCD03700 49] MacNoEditor, [0000021BDBFD7800][0000021BDCCBF840 49] MacServer, [0000021BDBF8B500][0000021BDCD07980 49] Linux, [0000021BDBFD7600][0000021BDCD0BAC0 49] LinuxAArch64, [0000021BDBF8AC00][0000021BDCD13C40 49] LinuxNoEditor, [0000021BDBFD7500][0000021BDCD16100 49] LinuxAArch64NoEditor, [0000021BDBF8AF00][0000021BDCD1A280 49] LinuxClient, [0000021BDBFD7D00][0000021BDCD1E400 49] LinuxAArch64Client, [0000021BDBF96200][0000021BDCD22580 49] LinuxServer, [0000021BDC04D000][0000021BDCD26700 49] LinuxAArch64Server, [0000021BDBF96C00][0000021BDCD2A880 49] Android, [0000021BDC04D500][0000021BDCD2EA00 49] Android_Low, [0000021BDBF97A00][0000021BDCD32B80 49] Android_Mid, [0000021BDC04D600][0000021BDCD36D00 49] Android_High, [0000021BDBF96F00][0000021BDCD3AE80 49] Android_Default, [0000021BDC04CF00][0000021BDCD3F000 49] Android_Adreno4xx, [0000021BDBF95E00][0000021BDCD43180 49] Android_Adreno5xx_Low, [0000021BDC04C100][0000021BDCD47300 49] Android_Adreno5xx, [0000021BDBF94A00][0000021BDCD4B480 49] Android_Adreno6xx, [0000021BDC04CB00][0000021BDCD4F600 49] Android_Adreno6xx_Vulkan, [0000021BDBF95A00][0000021BDCD53780 49] Android_Mali_T6xx, [0000021BDC04DC00][0000021BDCD0F8C0 49] Android_Mali_T7xx, [0000021BDBF95700][0000021BDCD57A00 49] Android_Mali_T8xx, [0000021BDC04C700][0000021BDCD5BB40 49] Android_Mali_G71, [0000021BDBF95200][0000021BDCD63CC0 49] Android_Mali_G72, [0000021BDC04DA00][0000021BDCD66180 49] Android_Mali_G72_Vulkan, [0000021BDBF96600][0000021BDCD6A300 49] Android_Mali_G76, [0000021BDC04D900][0000021BDCD6E480 49] Android_Mali_G76_Vulkan, [0000021BDBF94300][0000021BDCD72600 49] Android_Mali_G77, [0000021BDC04DB00][0000021BDCD76780 49] Android_Mali_G77_Vulkan, [0000021BDBFD6100][0000021BDCD7A900 49] Android_Vulkan_SM5, [0000021BDBF8BA00][0000021BDCD7EA80 49] Android_PowerVR_G6xxx, [0000021BDBFD7C00][0000021BDCD82C00 49] Android_PowerVR_GT7xxx, [0000021BDBF89700][0000021BDCD86D80 49] Android_PowerVR_GE8xxx, [0000021BDBFD6C00][0000021BDCD8AF00 49] Android_PowerVR_GM9xxx, [0000021BDBF8AE00][0000021BDCD8F080 49] Android_PowerVR_GM9xxx_Vulkan, [0000021BDBFD7A00][0000021BDCD93200 49] Android_TegraK1, [0000021BDBF89D00][0000021BDCD97380 49] Android_Unknown_Vulkan, [0000021BDBFD5100][0000021BDCD9B500 49] Lumin, [0000021BDBF89500][0000021BDCD9F680 49] Lumin_Desktop, [0000021BDBFD6200][0000021BDCDA3800 49] HoloLens, 
+[2021.05.24-15.15.12:098][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2021.05.24-15.15.12:098][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2021.05.24-15.15.12:098][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2021.05.24-15.15.12:098][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2021.05.24-15.15.12:098][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2021.05.24-15.15.12:122][  0]LogNetVersion: ShootThemUp 1.0.0, NetCL: 14830424, EngineNetVer: 16, GameNetVer: 0 (Checksum: 3915532626)
+[2021.05.24-15.15.12:735][  0]LogHMD: PokeAHoleMaterial loaded successfully
+[2021.05.24-15.15.12:771][  0]LogPackageLocalizationCache: Processed 22 localized package path(s) for 1 prioritized culture(s) in 0.035875 seconds
+[2021.05.24-15.15.12:777][  0]LogUObjectArray: 16831 objects as part of root set at end of initial load.
+[2021.05.24-15.15.12:777][  0]LogUObjectAllocator: 4209728 out of 0 bytes used by permanent object pool.
+[2021.05.24-15.15.12:777][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2021.05.24-15.15.13:457][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2021.05.24-15.15.13:467][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2021.05.24-15.15.14:244][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2021.05.24-15.15.14:274][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.24-15.15.14:274][  0]LogAudioCaptureCore: Display: No Audio Capture implementations found. Audio input will be silent.
+[2021.05.24-15.15.14:376][  0]SourceControl: Source control is disabled
+[2021.05.24-15.15.14:376][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:376][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Programs/Git/cmd/git.exe version
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:377][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.05.24-15.15.14:390][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:390][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.05.24-15.15.14:390][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:390][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.05.24-15.15.14:390][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:390][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Programs/Git/cmd/git.exe version
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:391][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Programs/Git/cmd/git.exe version
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:399][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2021.05.24-15.15.14:400][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:400][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.05.24-15.15.14:414][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:414][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.05.24-15.15.14:414][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:414][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.05.24-15.15.14:414][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:414][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Programs/Git/cmd/git.exe version
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.14:415][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.05.24-15.15.14:425][  0]LogUProjectInfo: Found projects:
+[2021.05.24-15.15.14:452][  0]LogCollectionManager: Loaded 0 collections in 0.002682 seconds
+[2021.05.24-15.15.14:494][  0]LogFileCache: Scanning file cache for directory 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Collections/' took 0.00s
+[2021.05.24-15.15.14:494][  0]LogFileCache: Scanning file cache for directory 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Developers/VRAR12/Collections/' took 0.00s
+[2021.05.24-15.15.14:494][  0]LogFileCache: Scanning file cache for directory 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Collections/' took 0.00s
+[2021.05.24-15.15.14:494][  0]LogOcInput: OculusInput pre-init called
+[2021.05.24-15.15.14:515][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2021.05.24-15.15.14:516][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2021.05.24-15.15.14:583][  0]LogEngine: Initializing Engine...
+[2021.05.24-15.15.14:585][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2021.05.24-15.15.14:585][  0]LogMagicLeap: Warning: VR disabled because ZI is not enabled.  To enable, in the editor, Edit -> Project Settings -> Plugins -> Magic Leap Plugin -> Enable Zero Iteration
+[2021.05.24-15.15.14:587][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2021.05.24-15.15.14:715][  0]LogInit: Initializing FReadOnlyCVARCache
+[2021.05.24-15.15.14:760][  0]LogAIModule: Creating AISystem for world Untitled
+[2021.05.24-15.15.14:760][  0]LogAudio: Display: Initializing Audio Device Manager...
+[2021.05.24-15.15.14:767][  0]LogAudio: Display: Audio Device Manager Initialized
+[2021.05.24-15.15.14:767][  0]LogAudio: Display: Creating Audio Device:                 Id: 1, Scope: Shared, Realtime: True
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-15.15.14:767][  0]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-15.15.14:767][  0]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-15.15.14:767][  0]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-15.15.14:768][  0]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-15.15.14:785][  0]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-15.15.14:785][  0]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-15.15.14:810][  0]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.24-15.15.14:810][  0]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-15.15.14:811][  0]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-15.15.14:811][  0]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-15.15.14:812][  0]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-15.15.14:812][  0]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-15.15.14:812][  0]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-15.15.14:813][  0]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-15.15.14:813][  0]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-15.15.14:813][  0]LogInit: FAudioDevice initialized.
+[2021.05.24-15.15.14:813][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'Untitled'.
+[2021.05.24-15.15.14:814][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2021.05.24-15.15.14:877][  0]LogDerivedDataCache: Saved boot cache 0.06s 78MB C:/Users/VRAR12/AppData/Local/UnrealEngine/4.26/DerivedDataCache/Boot.ddc.
+[2021.05.24-15.15.14:877][  0]LogInit: Texture streaming: Enabled
+[2021.05.24-15.15.14:892][  0]LogAnalytics: Display: [UEEditor.Rocket.Release] APIServer = https://datarouter.ol.epicgames.com/. AppVersion = 4.26.2-15973114+++UE4+Release-4.26
+[2021.05.24-15.15.14:895][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2021.05.24-15.15.14:895][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2021.05.24-15.15.14:897][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2021.05.24-15.15.14:924][  0]LogInit: Transaction tracking system initialized
+[2021.05.24-15.15.14:968][  0]BlueprintLog: New page: Editor Load
+[2021.05.24-15.15.15:123][  0]LocalizationService: Localization service is disabled
+[2021.05.24-15.15.15:180][  0]TimingProfiler: Initialize
+[2021.05.24-15.15.15:182][  0]TimingProfiler: OnSessionChanged
+[2021.05.24-15.15.15:183][  0]LoadingProfiler: Initialize
+[2021.05.24-15.15.15:183][  0]LoadingProfiler: OnSessionChanged
+[2021.05.24-15.15.15:184][  0]NetworkingProfiler: Initialize
+[2021.05.24-15.15.15:184][  0]NetworkingProfiler: OnSessionChanged
+[2021.05.24-15.15.15:184][  0]MemoryProfiler: Initialize
+[2021.05.24-15.15.15:184][  0]MemoryProfiler: OnSessionChanged
+[2021.05.24-15.15.15:354][  0]LogFileCache: Scanning file cache for directory 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/' took 0.00s
+[2021.05.24-15.15.15:354][  0]LogCook: Display: CookSettings for Memory: MemoryMaxUsedVirtual 0MiB, MemoryMaxUsedPhysical 16384MiB, MemoryMinFreeVirtual 0MiB, MemoryMinFreePhysical 1024MiB
+[2021.05.24-15.15.15:354][  0]LogCook: Display: Mobile HDR setting 1
+[2021.05.24-15.15.15:771][  0]LogInit: Display: Engine is initialized. Leaving FEngineLoop::Init()
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: URL: C:/Program Files/Git/bin/git.exe version
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: URL: C:/Program Files (x86)/Git/bin/git.exe version
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Programs/Git/cmd/git.exe version
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:776][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/git/bin/git.exe version
+[2021.05.24-15.15.15:777][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:777][  0]LogWindows: Warning: URL: C:/Program Files (x86)/SmartGit/bin/git.exe version
+[2021.05.24-15.15.15:777][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:777][  0]LogWindows: Warning: URL: C:\Users\VRAR12\AppData\Local/Atlassian/SourceTree/git_local/bin/git.exe version
+[2021.05.24-15.15.15:777][  0]LogWindows: Warning: CreateProc failed: Не удается найти указанный файл. (0x00000002)
+[2021.05.24-15.15.15:777][  0]LogWindows: Warning: URL: C:/Program Files (x86)/fournova/Tower/vendor/Git/bin/git.exe version
+[2021.05.24-15.15.15:777][  0]LogUnrealEdMisc: Loading editor; pre map load, took 59.685
+[2021.05.24-15.15.15:777][  0]Cmd: MAP LOAD FILE="D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/_Maps/TestLevel.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2021.05.24-15.15.15:777][  0]LightingResults: New page: Lighting Build
+[2021.05.24-15.15.15:778][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.15.15:778][  0]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.15.15:778][  0]MapCheck: New page: Map Check
+[2021.05.24-15.15.15:778][  0]LightingResults: New page: Lighting Build
+[2021.05.24-15.15.15:785][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2021.05.24-15.15.15:826][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Base.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:826][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Base.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:827][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Base.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:831][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Rubber_dark.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:831][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Rubber_dark.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:832][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/PhysicalMaterials/M_BodyDamage': Can't find file.
+[2021.05.24-15.15.15:832][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/PhysicalMaterials/M_BodyDamage': Can't find file.
+[2021.05.24-15.15.15:832][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:833][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/PhysicalMaterials/M_BodyDamage': Can't find file.
+[2021.05.24-15.15.15:833][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:844][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\_Maps\TestLevel.umap: Failed to load '/Game/_Maps/TestLevel_BuiltData': Can't find file.
+[2021.05.24-15.15.15:844][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\_Maps\TestLevel.umap: Failed to load '/Game/_Maps/TestLevel_BuiltData': Can't find file.
+[2021.05.24-15.15.15:845][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\_Maps\TestLevel.umap: Failed to load '/Game/_Maps/TestLevel_BuiltData': Can't find file.
+[2021.05.24-15.15.15:852][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Rubber_dark.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:852][  0]LoadErrors: Failed to load /Game/Environment/Textures/T_Vista_Grass_N.T_Vista_Grass_N Referenced by MaterialExpressionTextureSample_6
+[2021.05.24-15.15.15:855][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Base.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:855][  0]LoadErrors: Failed to load /Game/Environment/Textures/T_Vista_Grass_N.T_Vista_Grass_N Referenced by MaterialExpressionTextureSample_2
+[2021.05.24-15.15.15:880][  0]LogTexture: Display: Building textures: Chr_FPS_Fabric_N_01 (BC5, 512X512)
+[2021.05.24-15.15.15:880][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\_Maps\TestLevel.umap: Failed to load '/Game/_Maps/TestLevel_BuiltData': Can't find file.
+[2021.05.24-15.15.15:880][  0]LoadErrors: Failed to load /Game/_Maps/TestLevel_BuiltData.TestLevel_BuiltData Referenced by PersistentLevel
+[2021.05.24-15.15.15:881][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/PhysicalMaterials/M_BodyDamage': Can't find file.
+[2021.05.24-15.15.15:881][  0]LoadErrors: Failed to load /Game/Environment/PhysicalMaterials/M_BodyDamage.M_BodyDamage Referenced by HeroTPP
+[2021.05.24-15.15.15:881][  0]LogLinker: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to load '/Game/Environment/Textures/T_Vista_Grass_N': Can't find file.
+[2021.05.24-15.15.15:881][  0]LoadErrors: Failed to load /Game/Environment/Textures/T_Vista_Grass_N.T_Vista_Grass_N Referenced by HeroTPP
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: T_Sctraches_01 (AutoDXT, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_Metal_01 (BC5, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_M (BGRA8, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_Metal_02 (AutoDXT, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_N (BC5, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_M_03tga (AutoDXT, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_02_M (AutoDXT, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogTexture: Display: Building textures: Chr_FPS_D (AutoDXT, 2048X2048)
+[2021.05.24-15.15.20:034][  0]LogSkeletalMesh: Building Skeletal Mesh HeroTPP...
+[2021.05.24-15.15.20:074][  0]LogSkeletalMesh: Built Skeletal Mesh [0.04s] /Game/ExternelContent/Characters/HeroTPP/HeroTPP.HeroTPP
+[2021.05.24-15.15.20:084][  0]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.15.20:093][  0]LogMaterial: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.15.20:093][  0]LogMaterial: Display: 	Function ML_Base: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.15.20:093][  0]LogMaterial: Display: 	Function ML_Base: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.15.20:093][  0]LogMaterial: Display: 	Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.15.20:093][  0]LogMaterial: Display: 	Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.15.20:095][  0]LogAudio: Display: Audio Device (ID: 1) registered with world 'TestLevel'.
+[2021.05.24-15.15.20:095][  0]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.24-15.15.20:108][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2021.05.24-15.15.20:115][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2021.05.24-15.15.20:120][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2021.05.24-15.15.20:120][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,079ms to complete.
+[2021.05.24-15.15.20:120][  0]LogFileHelpers: Loading map 'TestLevel' took 4.344
+[2021.05.24-15.15.20:158][  0]LogUnrealEdMisc: Total Editor Startup Time, took 64.067
+[2021.05.24-15.15.20:354][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-15.15.20:359][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-15.15.20:364][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-15.15.20:370][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-15.15.20:420][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0078 seconds. Added 3604 classes and 863 folders.
+[2021.05.24-15.15.20:434][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'WidgetCarousel' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.24-15.15.20:447][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.24-15.15.20:447][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:447][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.24-15.15.20:447][  0]LogPakFile: OnPakFileMounted2Time == 0.000009
+[2021.05.24-15.15.20:457][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.05.24-15.15.20:457][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:457][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.05.24-15.15.20:457][  0]LogPakFile: OnPakFileMounted2Time == 0.000012
+[2021.05.24-15.15.20:462][  0]LogPakFile: PakFile PrimaryIndexSize=191
+[2021.05.24-15.15.20:462][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:462][  0]LogPakFile: PakFile FullDirectoryIndexSize=160
+[2021.05.24-15.15.20:462][  0]LogPakFile: OnPakFileMounted2Time == 0.000016
+[2021.05.24-15.15.20:468][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.24-15.15.20:468][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:468][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.24-15.15.20:468][  0]LogPakFile: OnPakFileMounted2Time == 0.000020
+[2021.05.24-15.15.20:474][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.05.24-15.15.20:474][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:474][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.05.24-15.15.20:474][  0]LogPakFile: OnPakFileMounted2Time == 0.000023
+[2021.05.24-15.15.20:479][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.05.24-15.15.20:479][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:479][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.05.24-15.15.20:479][  0]LogPakFile: OnPakFileMounted2Time == 0.000026
+[2021.05.24-15.15.20:485][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.05.24-15.15.20:486][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:486][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.05.24-15.15.20:486][  0]LogPakFile: OnPakFileMounted2Time == 0.000029
+[2021.05.24-15.15.20:497][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.05.24-15.15.20:497][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:497][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.05.24-15.15.20:497][  0]LogPakFile: OnPakFileMounted2Time == 0.000035
+[2021.05.24-15.15.20:512][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.24-15.15.20:512][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:512][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.24-15.15.20:512][  0]LogPakFile: OnPakFileMounted2Time == 0.000040
+[2021.05.24-15.15.20:525][  0]LogPakFile: PakFile PrimaryIndexSize=182
+[2021.05.24-15.15.20:525][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:525][  0]LogPakFile: PakFile FullDirectoryIndexSize=138
+[2021.05.24-15.15.20:525][  0]LogPakFile: OnPakFileMounted2Time == 0.000046
+[2021.05.24-15.15.20:537][  0]LogPakFile: PakFile PrimaryIndexSize=184
+[2021.05.24-15.15.20:537][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:537][  0]LogPakFile: PakFile FullDirectoryIndexSize=142
+[2021.05.24-15.15.20:537][  0]LogPakFile: OnPakFileMounted2Time == 0.000052
+[2021.05.24-15.15.20:549][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.24-15.15.20:549][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:549][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.24-15.15.20:549][  0]LogPakFile: OnPakFileMounted2Time == 0.000057
+[2021.05.24-15.15.20:557][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.24-15.15.20:557][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:557][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.24-15.15.20:557][  0]LogPakFile: OnPakFileMounted2Time == 0.000061
+[2021.05.24-15.15.20:565][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.24-15.15.20:565][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:565][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.24-15.15.20:565][  0]LogPakFile: OnPakFileMounted2Time == 0.000068
+[2021.05.24-15.15.20:573][  0]LogPakFile: PakFile PrimaryIndexSize=190
+[2021.05.24-15.15.20:573][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:573][  0]LogPakFile: PakFile FullDirectoryIndexSize=154
+[2021.05.24-15.15.20:573][  0]LogPakFile: OnPakFileMounted2Time == 0.000072
+[2021.05.24-15.15.20:581][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.24-15.15.20:581][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:581][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.24-15.15.20:581][  0]LogPakFile: OnPakFileMounted2Time == 0.000075
+[2021.05.24-15.15.20:589][  0]LogPakFile: PakFile PrimaryIndexSize=189
+[2021.05.24-15.15.20:589][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:589][  0]LogPakFile: PakFile FullDirectoryIndexSize=152
+[2021.05.24-15.15.20:589][  0]LogPakFile: OnPakFileMounted2Time == 0.000080
+[2021.05.24-15.15.20:597][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.24-15.15.20:597][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:597][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.24-15.15.20:597][  0]LogPakFile: OnPakFileMounted2Time == 0.000084
+[2021.05.24-15.15.20:605][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.24-15.15.20:605][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:605][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.24-15.15.20:605][  0]LogPakFile: OnPakFileMounted2Time == 0.000088
+[2021.05.24-15.15.20:617][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.24-15.15.20:617][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:617][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.24-15.15.20:617][  0]LogPakFile: OnPakFileMounted2Time == 0.000092
+[2021.05.24-15.15.20:625][  0]LogPakFile: PakFile PrimaryIndexSize=187
+[2021.05.24-15.15.20:625][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:625][  0]LogPakFile: PakFile FullDirectoryIndexSize=148
+[2021.05.24-15.15.20:625][  0]LogPakFile: OnPakFileMounted2Time == 0.000096
+[2021.05.24-15.15.20:633][  0]LogPakFile: PakFile PrimaryIndexSize=183
+[2021.05.24-15.15.20:633][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:633][  0]LogPakFile: PakFile FullDirectoryIndexSize=140
+[2021.05.24-15.15.20:633][  0]LogPakFile: OnPakFileMounted2Time == 0.000101
+[2021.05.24-15.15.20:641][  0]LogPakFile: PakFile PrimaryIndexSize=186
+[2021.05.24-15.15.20:641][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:641][  0]LogPakFile: PakFile FullDirectoryIndexSize=146
+[2021.05.24-15.15.20:641][  0]LogPakFile: OnPakFileMounted2Time == 0.000105
+[2021.05.24-15.15.20:649][  0]LogPakFile: PakFile PrimaryIndexSize=188
+[2021.05.24-15.15.20:649][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:649][  0]LogPakFile: PakFile FullDirectoryIndexSize=150
+[2021.05.24-15.15.20:649][  0]LogPakFile: OnPakFileMounted2Time == 0.000109
+[2021.05.24-15.15.20:657][  0]LogPakFile: PakFile PrimaryIndexSize=185
+[2021.05.24-15.15.20:659][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:659][  0]LogPakFile: PakFile FullDirectoryIndexSize=144
+[2021.05.24-15.15.20:659][  0]LogPakFile: OnPakFileMounted2Time == 0.000113
+[2021.05.24-15.15.20:668][  0]LogPakFile: PakFile PrimaryIndexSize=192
+[2021.05.24-15.15.20:668][  0]LogPakFile: PakFile PathHashIndexSize=101
+[2021.05.24-15.15.20:668][  0]LogPakFile: PakFile FullDirectoryIndexSize=158
+[2021.05.24-15.15.20:668][  0]LogPakFile: OnPakFileMounted2Time == 0.000117
+[2021.05.24-15.15.20:982][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2021.05.24-15.15.20:991][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 2 classes and 0 folders.
+[2021.05.24-15.15.21:100][  0]LogSlate: Took 0.000814 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2021.05.24-15.15.21:102][  0]LogSlate: Took 0.000704 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2021.05.24-15.15.21:114][  0]LogSlate: Took 0.005034 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2021.05.24-15.15.21:262][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2021.05.24-15.15.21:496][  0]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2021.05.24-15.15.21:496][  0]LogLoad: (Engine Initialization) Total time: 65.40 seconds
+[2021.05.24-15.15.21:496][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2021.05.24-15.15.21:496][  0]LogInit: First time updating LLM stats...
+[2021.05.24-15.15.21:657][  0]LogAssetRegistry: Asset discovery search completed in 10.0111 seconds
+[2021.05.24-15.15.21:658][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000004 seconds (updated 0 objects)
+[2021.05.24-15.15.21:663][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2021.05.24-15.15.21:729][  0]LogSlate: Took 0.009352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.24-15.15.22:231][  2]LogSlate: Took 0.018902 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.24-15.15.22:867][  4]LogSlate: Took 0.000254 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2021.05.24-15.15.24:669][ 10]LogSlate: Window 'Message Log' being destroyed
+[2021.05.24-15.15.24:671][ 10]LogSlate: Window 'Message Log' being destroyed
+[2021.05.24-15.15.32:476][837]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.24-15.15.32:483][837]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.24-15.15.32:492][837]PIE: New page: PIE session: TestLevel (24 мая 2021 г., 21:15:32)
+[2021.05.24-15.15.32:510][837]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2021.05.24-15.15.32:512][837]LogOnline: OSS: TryLoadSubsystemAndSetDefault: Loaded subsystem for module [NULL]
+[2021.05.24-15.15.32:513][837]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.24-15.15.32:517][837]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003626s)
+[2021.05.24-15.15.32:518][837]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.24-15.15.32:518][837]LogPlayLevel: PIE: World Init took: (0.001571s)
+[2021.05.24-15.15.32:519][837]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.005918s)
+[2021.05.24-15.15.32:524][837]LogUObjectHash: Compacting FUObjectHashTables data took   0.52ms
+[2021.05.24-15.15.32:526][837]LogAudio: Display: Creating Audio Device:                 Id: 2, Scope: Unique, Realtime: True
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.24-15.15.32:526][837]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.24-15.15.32:526][837]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.24-15.15.32:527][837]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.24-15.15.32:527][837]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.24-15.15.32:529][837]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.24-15.15.32:529][837]LogAudioMixer: Display: 1: FrontRight
+[2021.05.24-15.15.32:541][837]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.24-15.15.32:541][837]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.24-15.15.32:541][837]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.24-15.15.32:541][837]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.24-15.15.32:541][837]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.24-15.15.32:541][837]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.24-15.15.32:541][837]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.24-15.15.32:542][837]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.24-15.15.32:542][837]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.24-15.15.32:542][837]LogInit: FAudioDevice initialized.
+[2021.05.24-15.15.32:542][837]LogAudio: Display: Audio Device (ID: 2) registered with world 'TestLevel'.
+[2021.05.24-15.15.32:557][837]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.24-15.15.32:563][837]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.24-18.15.32
+[2021.05.24-15.15.32:564][837]LogWorld: Bringing up level for play took: 0.000999
+[2021.05.24-15.15.32:565][837]LogOnline: OSS: Creating online subsystem instance for: :Context_1
+[2021.05.24-15.15.32:578][837]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2021.05.24-15.15.32:599][837]PIE: Server logged in
+[2021.05.24-15.15.32:601][837]PIE: Play in editor total start time 0,122 seconds.
+[2021.05.24-15.15.35:771][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-15.15.35:771][204]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.24-15.15.35:771][204]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.15.35:771][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.15.35:779][204]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.24-15.15.35:780][204]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.15.35:785][204]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.24-15.15.35:786][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-15.15.35:787][204]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.24-15.15.35:801][204]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.24-15.15.35:803][204]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2021.05.24-15.15.35:836][206]LogPlayLevel: Display: Destroying online subsystem :Context_1
+[2021.05.24-15.15.48:588][711]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_STUBaseCharacter.BP_STUBaseCharacter
+[2021.05.24-15.15.48:659][711]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 126 classes and 0 folders.
+[2021.05.24-15.15.51:300][899]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.15.51:300][899]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.15.51:352][899]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/Blueprints/Player/BP_STUBaseCharacter.BP_STUBaseCharacter
+[2021.05.24-15.15.51:725][899]LogSlate: Took 0.000820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2021.05.24-15.15.52:950][ 30]LogSlate: Took 0.008990 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2021.05.24-15.15.58:287][606]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:344][607]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 34
+[2021.05.24-15.15.58:344][607]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 25
+[2021.05.24-15.15.58:344][607]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2021.05.24-15.15.58:344][607]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.24-15.15.58:364][607]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:365][607]LogMaterial: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Rubber_dark.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.15.58:365][607]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.15.58:365][607]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.15.58:391][608]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:428][609]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:462][610]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:485][611]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:509][612]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.15.58:510][612]LogMaterial: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Base.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.15.58:510][612]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.15.58:510][612]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.01:814][839]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 136
+[2021.05.24-15.16.01:945][854]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 126
+[2021.05.24-15.16.02:228][884]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 116
+[2021.05.24-15.16.02:261][888]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 106
+[2021.05.24-15.16.05:006][167]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 96
+[2021.05.24-15.16.05:375][192]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 86
+[2021.05.24-15.16.06:133][243]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 76
+[2021.05.24-15.16.06:241][250]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 66
+[2021.05.24-15.16.08:706][417]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 56
+[2021.05.24-15.16.09:058][441]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 46
+[2021.05.24-15.16.09:534][472]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 36
+[2021.05.24-15.16.10:513][539]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.24-15.16.12:300][660]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.05.24-15.16.12:994][707]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2021.05.24-15.16.13:138][717]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.05.24-15.16.13:221][723]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.05.24-15.16.13:930][770]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.24-15.16.14:176][786]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.24-15.16.14:201][788]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.16.14:389][801]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.24-15.16.22:639][705]LogAssetEditorSubsystem: Opening Asset editor for MaterialFunction /Game/ExternelContent/Characters/Materials/ML_Rubber_dark.ML_Rubber_dark
+[2021.05.24-15.16.22:955][705]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.22:956][705]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.22:956][705]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.22:956][705]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.22:958][705]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.22:962][705]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.22:964][705]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.22:964][705]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.22:964][705]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.22:965][705]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.22:971][705]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.16.22:971][705]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.24-15.16.22:973][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_0, compiling. 
+[2021.05.24-15.16.22:978][705]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.05.24-15.16.22:978][705]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.24-15.16.22:978][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2021.05.24-15.16.22:981][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2021.05.24-15.16.22:982][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_2, compiling. 
+[2021.05.24-15.16.22:986][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_1, compiling. 
+[2021.05.24-15.16.22:990][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_12, compiling. 
+[2021.05.24-15.16.22:994][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_29, compiling. 
+[2021.05.24-15.16.22:998][705]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionInput_30, compiling. 
+[2021.05.24-15.16.23:009][705]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.23:010][705]MaterialEditorStats: Error: [SM5] (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.23:377][724]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.05.24-15.16.23:391][725]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.05.24-15.16.23:462][731]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.05.24-15.16.23:475][732]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 23
+[2021.05.24-15.16.23:767][752]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.05.24-15.16.23:849][758]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 21
+[2021.05.24-15.16.23:877][760]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 20
+[2021.05.24-15.16.23:939][765]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.05.24-15.16.24:252][785]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 18
+[2021.05.24-15.16.24:278][787]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.05.24-15.16.24:278][787]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2021.05.24-15.16.24:399][797]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 15
+[2021.05.24-15.16.24:673][814]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.05.24-15.16.24:673][814]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 13
+[2021.05.24-15.16.24:717][816]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.05.24-15.16.24:854][824]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.24-15.16.25:056][837]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.05.24-15.16.25:115][841]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 9
+[2021.05.24-15.16.25:141][843]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 8
+[2021.05.24-15.16.25:301][853]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.24-15.16.25:494][866]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.24-15.16.25:495][866]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 5
+[2021.05.24-15.16.25:522][868]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 4
+[2021.05.24-15.16.25:731][882]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.24-15.16.25:891][893]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.16.25:920][895]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.24-15.16.39:154][236]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.39:155][236]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.39:155][236]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.39:155][236]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.39:156][236]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.39:159][236]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.39:159][236]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.39:159][236]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.39:159][236]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.39:160][236]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.39:205][237]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.16.39:205][237]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.24-15.16.44:276][733]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.44:277][733]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.44:277][733]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.44:277][733]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.44:283][733]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.44:286][733]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.44:287][733]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.44:287][733]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.44:287][733]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.44:288][733]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.44:305][734]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.16.44:305][734]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.24-15.16.53:729][769]LogMaterialEditor: Applying material ML_Rubber_dark
+[2021.05.24-15.16.54:245][769]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.16.54:246][769]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_0 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.54:246][769]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.54:246][769]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.54:247][769]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.16.54:268][769]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.16.54:268][769]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.24-15.16.54:285][769]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.16.54:292][769]LogMaterial: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.54:292][769]LogMaterial: Display: 	Function ML_Base: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.54:292][769]LogMaterial: Display: 	Function ML_Base: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.54:292][769]LogMaterial: Display: 	Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.54:292][769]LogMaterial: Display: 	Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.16.54:314][769]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.16.54:314][769]LogMaterial: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\ML_Rubber_dark.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.16.54:314][769]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.16.54:314][769]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.12:952][816]LogAssetEditorSubsystem: Opening Asset editor for MaterialFunction /Game/ExternelContent/Characters/Materials/ML_Base.ML_Base
+[2021.05.24-15.17.12:988][816]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2021.05.24-15.17.12:988][816]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.17.12:988][816]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.12:988][816]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.12:989][816]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.17.12:992][816]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2021.05.24-15.17.12:993][816]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.17.12:993][816]LogMaterial: Display: 	(Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.12:993][816]LogMaterial: Display: 	(Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.12:993][816]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.17.12:997][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionFunctionOutput_1, compiling. 
+[2021.05.24-15.17.13:002][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2021.05.24-15.17.13:005][816]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.05.24-15.17.13:005][816]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.24-15.17.13:005][816]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.05.24-15.17.13:005][816]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 7
+[2021.05.24-15.17.13:005][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.05.24-15.17.13:005][816]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_3, compiling. 
+[2021.05.24-15.17.13:013][816]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.13:014][816]MaterialEditorStats: Error: [SM5] (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.13:399][835]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.05.24-15.17.13:491][840]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.24-15.17.13:565][844]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.24-15.17.13:640][848]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.05.24-15.17.13:790][856]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.24-15.17.14:028][868]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.24-15.17.14:068][870]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 4
+[2021.05.24-15.17.14:105][872]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.24-15.17.14:201][878]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.17.14:535][895]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 1
+[2021.05.24-15.17.15:554][976]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/ExternelContent/Characters/Materials/HeroTPP.HeroTPP
+[2021.05.24-15.17.15:557][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.17.15:560][976]LogMaterial: Warning: [AssetLog] /Engine/Transient.HeroTPP (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.17.15:560][976]LogMaterial: Display: 	Function ML_Base: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.15:560][976]LogMaterial: Display: 	Function ML_Base: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.15:560][976]LogMaterial: Display: 	Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.15:560][976]LogMaterial: Display: 	Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.15:594][976]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.17.15:598][976]LogMaterial: Warning: [AssetLog] /Engine/Transient.HeroTPP (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.17.15:598][976]LogMaterial: Display: 	Function ML_Base: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.15:598][976]LogMaterial: Display: 	Function ML_Base: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.15:598][976]LogMaterial: Display: 	Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.15:598][976]LogMaterial: Display: 	Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.15:607][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_8, compiling. 
+[2021.05.24-15.17.15:609][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2021.05.24-15.17.15:612][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_12, compiling. 
+[2021.05.24-15.17.15:614][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.05.24-15.17.15:616][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2021.05.24-15.17.15:619][976]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 16
+[2021.05.24-15.17.15:619][976]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.05.24-15.17.15:619][976]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.05.24-15.17.15:619][976]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.05.24-15.17.15:619][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2021.05.24-15.17.15:622][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2021.05.24-15.17.15:625][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2021.05.24-15.17.15:628][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_2, compiling. 
+[2021.05.24-15.17.15:631][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_4, compiling. 
+[2021.05.24-15.17.15:633][976]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_6, compiling. 
+[2021.05.24-15.17.15:646][976]MaterialEditorStats: Error: [SM5] Function ML_Base: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.15:646][976]MaterialEditorStats: Error: [SM5] Function ML_Base: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.15:646][976]MaterialEditorStats: Error: [SM5] Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.17.15:646][976]MaterialEditorStats: Error: [SM5] Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.17.16:026][996]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 40
+[2021.05.24-15.17.16:063][999]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2021.05.24-15.17.16:122][  4]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2021.05.24-15.17.16:135][  5]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 37
+[2021.05.24-15.17.16:426][ 25]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 36
+[2021.05.24-15.17.16:537][ 33]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 35
+[2021.05.24-15.17.16:550][ 34]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 34
+[2021.05.24-15.17.16:596][ 37]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2021.05.24-15.17.16:775][ 44]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 32
+[2021.05.24-15.17.16:991][ 60]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 31
+[2021.05.24-15.17.17:036][ 62]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 30
+[2021.05.24-15.17.17:036][ 62]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 29
+[2021.05.24-15.17.17:146][ 71]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 28
+[2021.05.24-15.17.17:454][ 84]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2021.05.24-15.17.17:471][ 85]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.05.24-15.17.17:551][ 90]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.05.24-15.17.17:565][ 91]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 24
+[2021.05.24-15.17.17:977][105]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.05.24-15.17.17:977][105]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 22
+[2021.05.24-15.17.17:977][105]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 21
+[2021.05.24-15.17.17:977][105]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2021.05.24-15.17.18:392][127]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.05.24-15.17.18:429][129]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 18
+[2021.05.24-15.17.18:478][132]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.05.24-15.17.18:493][133]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 16
+[2021.05.24-15.17.18:902][152]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 15
+[2021.05.24-15.17.18:902][152]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 14
+[2021.05.24-15.17.18:902][152]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.05.24-15.17.18:936][154]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 12
+[2021.05.24-15.17.19:341][175]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 11
+[2021.05.24-15.17.19:378][177]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 10
+[2021.05.24-15.17.19:409][179]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 9
+[2021.05.24-15.17.19:409][179]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 8
+[2021.05.24-15.17.19:805][200]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 7
+[2021.05.24-15.17.19:839][202]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 6
+[2021.05.24-15.17.19:839][202]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 5
+[2021.05.24-15.17.19:855][203]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.05.24-15.17.20:271][221]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.24-15.17.20:271][221]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.24-15.17.20:307][222]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 1
+[2021.05.24-15.17.20:438][227]LogSlate: Window 'ML_Rubber_dark' being destroyed
+[2021.05.24-15.17.21:583][325]LogSlate: Window 'ML_Rubber_dark' being destroyed
+[2021.05.24-15.17.22:846][449]LogSlate: Window 'ML_Base' being destroyed
+[2021.05.24-15.17.25:501][740]LogRenderer: Reallocating scene render targets to support 1208x900 Format 10 NumSamples 1 (Frame:1).
+[2021.05.24-15.18.02:969][ 66]LogUObjectHash: Compacting FUObjectHashTables data took   1.88ms
+[2021.05.24-15.18.03:359][ 66]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/HeroTPPE1EA24B640B32F112652F48DC80B6FAA.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/ExternelContent/Characters/Materials/HeroTPP.uasset'
+[2021.05.24-15.18.03:380][ 66]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ML_Rubber_darkA37558A74B97A381CC1031B935E0C219.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/ExternelContent/Characters/Materials/ML_Rubber_dark.uasset'
+[2021.05.24-15.18.03:391][ 66]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.24-15.18.03:391][ 66]LogContentValidation: Display: Validating MaterialFunction /Game/ExternelContent/Characters/Materials/ML_Rubber_dark.ML_Rubber_dark
+[2021.05.24-15.18.03:391][ 66]LogContentValidation: Display: Validating Material /Game/ExternelContent/Characters/Materials/HeroTPP.HeroTPP
+[2021.05.24-15.20.15:597][ 60]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2021.05.24-15.20.15:629][ 60]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.20.15:630][ 60]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 27
+[2021.05.24-15.20.15:630][ 60]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.05.24-15.20.15:630][ 60]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.05.24-15.20.15:630][ 60]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.05.24-15.20.15:642][ 60]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2021.05.24-15.20.15:650][ 60]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2021.05.24-15.20.15:669][ 60]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.20.16:062][102]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2021.05.24-15.20.16:097][106]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2021.05.24-15.20.16:097][106]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+[2021.05.24-15.20.16:454][147]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 30
+[2021.05.24-15.20.16:487][151]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.05.24-15.20.16:569][161]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2021.05.24-15.20.16:569][161]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2021.05.24-15.20.16:824][187]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 26
+[2021.05.24-15.20.16:888][194]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.05.24-15.20.16:913][197]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.05.24-15.20.17:070][215]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2021.05.24-15.20.17:115][220]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 22
+[2021.05.24-15.20.17:148][224]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2021.05.24-15.20.17:224][233]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 20
+[2021.05.24-15.20.17:276][239]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 19
+[2021.05.24-15.20.17:534][267]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2021.05.24-15.20.17:599][274]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 17
+[2021.05.24-15.20.17:817][298]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 16
+[2021.05.24-15.20.17:919][310]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.05.24-15.20.17:934][312]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 14
+[2021.05.24-15.20.18:020][322]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 13
+[2021.05.24-15.20.18:044][325]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 12
+[2021.05.24-15.20.18:121][334]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 11
+[2021.05.24-15.20.18:188][342]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 10
+[2021.05.24-15.20.18:318][357]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 9
+[2021.05.24-15.20.18:402][367]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 8
+[2021.05.24-15.20.18:568][386]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.05.24-15.20.18:592][389]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 6
+[2021.05.24-15.20.18:696][401]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 5
+[2021.05.24-15.20.18:723][404]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 4
+[2021.05.24-15.20.18:944][430]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 3
+[2021.05.24-15.20.19:088][447]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 2
+[2021.05.24-15.20.19:265][467]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.24-15.20.21:659][750]LogMaterialEditor: Applying material ML_Base
+[2021.05.24-15.20.22:135][750]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2021.05.24-15.20.22:170][750]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.20.22:172][750]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.05.24-15.20.22:172][750]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.05.24-15.20.22:172][750]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2021.05.24-15.20.22:172][750]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.24-15.20.22:193][750]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.20.22:196][750]LogMaterial: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\ExternelContent\Characters\Materials\HeroTPP.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.20.22:196][750]LogMaterial: Display: 	Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.20.22:196][750]LogMaterial: Display: 	Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.20.22:198][750]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.20.22:205][750]LogMaterial: Warning: [AssetLog] /Engine/Transient.HeroTPP (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2021.05.24-15.20.22:205][750]LogMaterial: Display: 	Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.20.22:205][750]LogMaterial: Display: 	Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.20.22:231][750]LogMaterial: Display: Missing cached shader map for material Material_1, compiling. 
+[2021.05.24-15.20.22:263][750]MaterialEditorStats: Error: [SM5] Function ML_Rubber_dark: (Node TextureSample) Texture Sample> Missing input texture
+[2021.05.24-15.20.22:263][750]MaterialEditorStats: Error: [SM5] Function ML_Rubber_dark: (Node MakeMaterialAttributes) Error on property Normal
+[2021.05.24-15.20.22:478][773]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 59
+[2021.05.24-15.20.22:478][773]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 58
+[2021.05.24-15.20.22:512][777]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 57
+[2021.05.24-15.20.22:672][796]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 56
+[2021.05.24-15.20.22:780][809]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 55
+[2021.05.24-15.20.22:818][812]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 54
+[2021.05.24-15.20.22:841][815]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 53
+[2021.05.24-15.20.23:002][834]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 52
+[2021.05.24-15.20.23:152][852]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 51
+[2021.05.24-15.20.23:400][882]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 50
+[2021.05.24-15.20.23:400][882]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 49
+[2021.05.24-15.20.23:492][893]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 48
+[2021.05.24-15.20.23:535][898]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 47
+[2021.05.24-15.20.23:609][907]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 46
+[2021.05.24-15.20.23:677][915]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 45
+[2021.05.24-15.20.23:718][920]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 44
+[2021.05.24-15.20.23:827][933]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 43
+[2021.05.24-15.20.23:978][951]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 42
+[2021.05.24-15.20.24:118][963]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 41
+[2021.05.24-15.20.24:151][967]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 40
+[2021.05.24-15.20.24:191][972]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 39
+[2021.05.24-15.20.24:292][984]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 38
+[2021.05.24-15.20.24:489][  7]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 37
+[2021.05.24-15.20.24:580][ 18]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 36
+[2021.05.24-15.20.24:796][ 41]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2021.05.24-15.20.24:873][ 49]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 19
+[2021.05.24-15.20.24:907][ 53]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 14
+[2021.05.24-15.20.26:044][164]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 10
+[2021.05.24-15.20.26:899][241]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 7
+[2021.05.24-15.20.26:994][252]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.24-15.20.27:308][282]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.24-15.20.27:556][307]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 2
+[2021.05.24-15.20.27:680][320]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.24-15.21.07:388][ 36]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.21.07:399][ 36]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.21.07:405][ 36]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.05.24-15.21.07:405][ 36]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.05.24-15.21.07:405][ 36]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2021.05.24-15.21.07:405][ 36]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.24-15.21.07:407][ 36]LogMaterial: Display: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_6, compiling. 
+[2021.05.24-15.21.07:418][ 36]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.21.07:436][ 36]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.21.07:853][ 81]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 33
+[2021.05.24-15.21.07:870][ 83]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2021.05.24-15.21.07:870][ 83]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 31
+[2021.05.24-15.21.08:141][115]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 30
+[2021.05.24-15.21.08:240][127]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 29
+[2021.05.24-15.21.08:348][140]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 28
+[2021.05.24-15.21.08:348][140]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 27
+[2021.05.24-15.21.08:509][159]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 26
+[2021.05.24-15.21.08:646][175]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 25
+[2021.05.24-15.21.08:695][181]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 24
+[2021.05.24-15.21.08:804][194]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 23
+[2021.05.24-15.21.08:821][196]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 22
+[2021.05.24-15.21.08:862][200]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 21
+[2021.05.24-15.21.08:980][214]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 20
+[2021.05.24-15.21.08:998][216]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 19
+[2021.05.24-15.21.09:245][245]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 18
+[2021.05.24-15.21.09:340][256]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 17
+[2021.05.24-15.21.09:573][283]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 16
+[2021.05.24-15.21.09:623][289]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 15
+[2021.05.24-15.21.09:647][292]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 14
+[2021.05.24-15.21.09:749][304]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 13
+[2021.05.24-15.21.09:765][306]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 12
+[2021.05.24-15.21.09:823][313]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 11
+[2021.05.24-15.21.09:899][322]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 10
+[2021.05.24-15.21.10:045][339]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 9
+[2021.05.24-15.21.10:112][347]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.24-15.21.10:275][366]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 7
+[2021.05.24-15.21.10:318][371]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 6
+[2021.05.24-15.21.10:427][384]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.24-15.21.10:436][385]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 4
+[2021.05.24-15.21.10:632][408]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 3
+[2021.05.24-15.21.10:782][424]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 2
+[2021.05.24-15.21.10:929][439]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 1
+[2021.05.24-15.21.11:509][503]LogMaterialEditor: Applying material ML_Rubber_dark
+[2021.05.24-15.21.11:946][503]LogMaterial: Display: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2021.05.24-15.21.11:999][503]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.21.12:001][503]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 29
+[2021.05.24-15.21.12:001][503]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 28
+[2021.05.24-15.21.12:001][503]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 27
+[2021.05.24-15.21.12:001][503]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 26
+[2021.05.24-15.21.12:027][503]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.21.12:078][503]LogMaterial: Display: Missing cached shader map for material HeroTPP, compiling. 
+[2021.05.24-15.21.12:127][503]LogMaterial: Display: Missing cached shader map for material Material_0, compiling. 
+[2021.05.24-15.21.12:307][519]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 179
+[2021.05.24-15.21.12:325][521]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 178
+[2021.05.24-15.21.12:325][521]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 177
+[2021.05.24-15.21.12:484][539]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 176
+[2021.05.24-15.21.12:572][548]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 175
+[2021.05.24-15.21.12:669][556]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 174
+[2021.05.24-15.21.12:669][556]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 173
+[2021.05.24-15.21.12:801][570]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 172
+[2021.05.24-15.21.12:954][585]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 171
+[2021.05.24-15.21.13:170][600]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 170
+[2021.05.24-15.21.13:237][602]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 169
+[2021.05.24-15.21.13:270][603]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 168
+[2021.05.24-15.21.13:337][605]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 167
+[2021.05.24-15.21.13:369][605]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 166
+[2021.05.24-15.21.13:436][607]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 165
+[2021.05.24-15.21.13:468][608]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 164
+[2021.05.24-15.21.13:603][612]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 163
+[2021.05.24-15.21.13:702][621]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 162
+[2021.05.24-15.21.13:801][632]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 161
+[2021.05.24-15.21.13:848][637]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 160
+[2021.05.24-15.21.13:958][648]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 159
+[2021.05.24-15.21.14:032][656]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 158
+[2021.05.24-15.21.14:198][674]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 157
+[2021.05.24-15.21.14:333][689]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 156
+[2021.05.24-15.21.14:520][709]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 155
+[2021.05.24-15.21.14:548][712]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 154
+[2021.05.24-15.21.14:659][724]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 153
+[2021.05.24-15.21.14:768][735]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 152
+[2021.05.24-15.21.14:828][742]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 151
+[2021.05.24-15.21.14:915][752]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 150
+[2021.05.24-15.21.14:969][758]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 149
+[2021.05.24-15.21.15:104][774]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 148
+[2021.05.24-15.21.15:145][779]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 147
+[2021.05.24-15.21.15:204][786]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 146
+[2021.05.24-15.21.15:416][810]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 145
+[2021.05.24-15.21.15:545][824]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 144
+[2021.05.24-15.21.15:714][844]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 143
+[2021.05.24-15.21.15:900][866]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 142
+[2021.05.24-15.21.15:925][869]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 141
+[2021.05.24-15.21.15:975][875]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 140
+[2021.05.24-15.21.16:035][882]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 139
+[2021.05.24-15.21.16:110][891]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 138
+[2021.05.24-15.21.16:212][903]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 137
+[2021.05.24-15.21.16:268][909]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 136
+[2021.05.24-15.21.16:359][920]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 135
+[2021.05.24-15.21.16:542][941]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 134
+[2021.05.24-15.21.16:569][944]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 133
+[2021.05.24-15.21.16:609][949]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 132
+[2021.05.24-15.21.16:719][959]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 131
+[2021.05.24-15.21.16:933][980]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 130
+[2021.05.24-15.21.16:958][983]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 129
+[2021.05.24-15.21.17:204][ 10]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 128
+[2021.05.24-15.21.17:281][ 19]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 127
+[2021.05.24-15.21.17:314][ 23]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 126
+[2021.05.24-15.21.17:518][ 46]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 125
+[2021.05.24-15.21.17:602][ 56]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 124
+[2021.05.24-15.21.17:634][ 60]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 123
+[2021.05.24-15.21.17:702][ 68]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 122
+[2021.05.24-15.21.17:878][ 89]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 121
+[2021.05.24-15.21.17:927][ 95]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 120
+[2021.05.24-15.21.17:935][ 96]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 119
+[2021.05.24-15.21.18:279][137]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 118
+[2021.05.24-15.21.18:381][149]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 117
+[2021.05.24-15.21.18:651][181]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 116
+[2021.05.24-15.21.18:808][196]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 115
+[2021.05.24-15.21.18:883][204]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 114
+[2021.05.24-15.21.18:883][204]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 113
+[2021.05.24-15.21.18:937][210]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 112
+[2021.05.24-15.21.19:072][224]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 111
+[2021.05.24-15.21.19:178][235]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 110
+[2021.05.24-15.21.19:263][243]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 109
+[2021.05.24-15.21.19:371][254]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 108
+[2021.05.24-15.21.19:567][274]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 107
+[2021.05.24-15.21.19:656][283]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 106
+[2021.05.24-15.21.19:706][288]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 105
+[2021.05.24-15.21.19:801][298]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 104
+[2021.05.24-15.21.19:957][314]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 103
+[2021.05.24-15.21.20:091][328]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 102
+[2021.05.24-15.21.20:259][344]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 92
+[2021.05.24-15.21.20:409][359]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 82
+[2021.05.24-15.21.20:511][370]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 72
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: Base pass shader: 265 instructions
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: Base pass shader with Volumetric Lightmap: 339 instructions
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: Base pass vertex shader: 46 instructions
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: Base pass vertex shader: 158 instructions
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: Texture samplers: 11/16
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(18)
+[2021.05.24-15.21.20:551][372]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2021.05.24-15.21.23:317][596]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 62
+[2021.05.24-15.21.23:566][613]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 52
+[2021.05.24-15.21.24:484][675]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 42
+[2021.05.24-15.21.24:790][695]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 32
+[2021.05.24-15.21.27:418][898]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 23
+[2021.05.24-15.21.27:700][927]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 17
+[2021.05.24-15.21.28:334][991]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 12
+[2021.05.24-15.21.28:752][ 34]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 8
+[2021.05.24-15.21.29:239][ 79]LogShaderCompilers: Display: Worker (2/5): shaders left to compile 5
+[2021.05.24-15.21.29:767][130]LogShaderCompilers: Display: Worker (4/5): shaders left to compile 3
+[2021.05.24-15.21.29:786][132]LogShaderCompilers: Display: Worker (1/5): shaders left to compile 2
+[2021.05.24-15.21.29:831][137]LogShaderCompilers: Display: Worker (3/5): shaders left to compile 1
+[2021.05.24-15.22.05:852][389]LogAssetEditorSubsystem: Opening Asset editor for SkeletalMesh /Game/ExternelContent/Characters/HeroTPP/HeroTPP.HeroTPP
+[2021.05.24-15.22.05:887][389]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'SkeletonEditor' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2021.05.24-15.22.05:907][389]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_11:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.24-15.22.05:917][389]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'PinnedCommandList' in 0.0003 seconds. Added 1 classes and 0 folders.
+[2021.05.24-15.22.21:627][187]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/HeroTPP79C238394BAB9D70BDE252BF8A5CB5E4.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/ExternelContent/Characters/HeroTPP/HeroTPP.uasset'
+[2021.05.24-15.22.21:638][187]AssetCheck: New page: Asset Save: HeroTPP
+[2021.05.24-15.22.21:638][187]LogContentValidation: Display: Validating SkeletalMesh /Game/ExternelContent/Characters/HeroTPP/HeroTPP.HeroTPP
+[2021.05.24-15.22.41:932][596]LogUObjectHash: Compacting FUObjectHashTables data took   2.86ms
+[2021.05.24-15.22.41:972][596]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/HeroTPP844D112140D2C455DBB6EDAF031C2A41.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/ExternelContent/Characters/Materials/HeroTPP.uasset'
+[2021.05.24-15.22.41:984][596]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ML_BaseB521AA4048D4B69BFBE6E58EE44B2EE5.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/ExternelContent/Characters/Materials/ML_Base.uasset'
+[2021.05.24-15.22.41:996][596]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ML_Rubber_dark8D28CC9D4EAE0B564355CC8ACFD7E05A.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/ExternelContent/Characters/Materials/ML_Rubber_dark.uasset'
+[2021.05.24-15.22.42:004][596]AssetCheck: New page: Asset Save: multiple assets
+[2021.05.24-15.22.42:005][596]LogContentValidation: Display: Validating MaterialFunction /Game/ExternelContent/Characters/Materials/ML_Base.ML_Base
+[2021.05.24-15.22.42:005][596]LogContentValidation: Display: Validating MaterialFunction /Game/ExternelContent/Characters/Materials/ML_Rubber_dark.ML_Rubber_dark
+[2021.05.24-15.22.42:005][596]LogContentValidation: Display: Validating Material /Game/ExternelContent/Characters/Materials/HeroTPP.HeroTPP
+[2021.05.24-15.22.43:765][805]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.22.43:765][805]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.22.45:234][973]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.22.45:234][973]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.22.47:753][268]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.22.47:753][268]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.22.48:888][397]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.22.48:888][397]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.22.51:879][734]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Blueprints/Player/BP_STUBaseCharacter" FILE="D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Blueprints/Player/BP_STUBaseCharacter.uasset" SILENT=true
+[2021.05.24-15.22.51:893][734]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/BP_STUBaseCharacter3BA131CC471EB17662150D8F56B637FB.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Blueprints/Player/BP_STUBaseCharacter.uasset'
+[2021.05.24-15.22.51:902][734]AssetCheck: New page: Asset Save: BP_STUBaseCharacter
+[2021.05.24-15.22.51:902][734]LogContentValidation: Display: Validating Blueprint /Game/Blueprints/Player/BP_STUBaseCharacter.BP_STUBaseCharacter
+[2021.05.24-15.22.53:513][922]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2021.05.24-15.22.53:513][922]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.24-15.26.36:441][595]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.05.24-15.26.39:062][839]LogSlate: Window 'Project Settings' being destroyed
+[2021.05.24-15.29.23:925][363]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.05.24-15.29.23:928][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:928][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:928][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:928][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:928][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:929][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:930][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:931][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:932][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:933][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:933][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:935][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:935][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:935][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:935][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:958][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:958][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:958][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:958][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:958][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:960][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:961][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.23:990][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:006][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:025][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:025][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:026][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:026][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:029][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:029][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:029][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:033][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:038][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:040][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:040][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:041][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:041][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.24:042][363]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:325][947]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:329][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:330][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:331][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:332][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:333][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:336][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:336][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:336][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:336][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:364][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:364][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:364][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:364][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:364][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:366][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:367][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:396][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:413][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:431][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:431][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:431][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:431][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:435][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:435][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:435][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:439][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:443][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:446][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:446][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:447][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:447][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.29:448][947]LogVSAccessor: Warning: Couldn't access module table
+[2021.05.24-15.29.36:606][708]Running C:/Program Files/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/ShootThemUp.uproject" -game -rocket -progress
+[2021.05.24-15.29.36:910][708]Discovering modules, targets and source code for project...
+[2021.05.24-15.29.38:420][708]Binding IntelliSense data...
+[2021.05.24-15.29.40:851][708]Binding IntelliSense data... 100%
+[2021.05.24-15.29.40:851][708]Writing project files...
+[2021.05.24-15.29.45:279][708]Writing project files... 100%
+[2021.05.24-15.30.48:506][479]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/_Maps/TestLevel" FILE="D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/_Maps/TestLevel.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2021.05.24-15.30.48:597][479]LogUObjectHash: Compacting FUObjectHashTables data took   4.02ms
+[2021.05.24-15.30.48:607][479]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/TestLevelE23A2F1042ADE3B3CA571EBFC49E2D76.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/_Maps/TestLevel.umap'
+[2021.05.24-15.30.48:620][479]AssetCheck: New page: Asset Save: TestLevel
+[2021.05.24-15.30.48:620][479]LogContentValidation: Display: Validating World /Game/_Maps/TestLevel.TestLevel

@@ -27,4 +27,8 @@ public:
     virtual void Tick(float DeltaTime) override;
 
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
+
+private:
+    void MoveForward(float Amount);
+    void MoveRight(float Amount);
 };
