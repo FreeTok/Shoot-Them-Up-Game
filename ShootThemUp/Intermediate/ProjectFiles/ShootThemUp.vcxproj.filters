@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ShootThemUp.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{C5CDB031-0744-4BF7-8DBB-47EB68B8CDB0}</UniqueIdentifier>
+      <UniqueIdentifier>{2306EF9C-B6B8-453F-9BD3-FDC85AC17763}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootThemUp.Target.cs">
       <Filter>Source</Filter>
@@ -12,9 +12,8 @@
       <Filter>Source</Filter>
     </None>
     <None Include="..\..\.clang-format" />
-    <None Include="..\..\.gitignore" />
     <Filter Include="Config">
-      <UniqueIdentifier>{CC0A3D9D-7542-4090-8249-32E116711963}</UniqueIdentifier>
+      <UniqueIdentifier>{9DB43F19-6388-4876-9245-6F5F7261A3EC}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -26,7 +25,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ShootThemUp">
-      <UniqueIdentifier>{D09C2586-D396-4F47-B472-520C4F2747BE}</UniqueIdentifier>
+      <UniqueIdentifier>{C739FB6F-0C7A-42C9-8F56-BEBEEF412271}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootThemUp\ShootThemUp.Build.cs">
       <Filter>Source\ShootThemUp</Filter>
@@ -38,16 +37,34 @@
       <Filter>Source\ShootThemUp</Filter>
     </ClInclude>
     <Filter Include="Source\ShootThemUp\Private">
-      <UniqueIdentifier>{30A5D6F4-A649-442E-8FC4-218FC61E75E7}</UniqueIdentifier>
+      <UniqueIdentifier>{991024CA-165A-4523-BB9F-2CBB96CC80E6}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShootThemUp\Private\STUGameModeBase.cpp">
       <Filter>Source\ShootThemUp\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\ShootThemUp\Private\Player">
+      <UniqueIdentifier>{F86E942F-E39A-4A47-9145-403968822440}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Player\STUBaseCharacter.cpp">
+      <Filter>Source\ShootThemUp\Private\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Player\STUPlayerController.cpp">
+      <Filter>Source\ShootThemUp\Private\Player</Filter>
+    </ClCompile>
     <Filter Include="Source\ShootThemUp\Public">
-      <UniqueIdentifier>{88F2DC15-547B-4226-A5FD-532C9B6B2E8F}</UniqueIdentifier>
+      <UniqueIdentifier>{08D66300-5E21-4FC9-9D5F-27FA1F4AD899}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShootThemUp\Public\STUGameModeBase.h">
       <Filter>Source\ShootThemUp\Public</Filter>
+    </ClInclude>
+    <Filter Include="Source\ShootThemUp\Public\Player">
+      <UniqueIdentifier>{AAA86E5C-EAD0-40B1-9B0A-A5D4B2C8F7D2}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Player\STUBaseCharacter.h">
+      <Filter>Source\ShootThemUp\Public\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Player\STUPlayerController.h">
+      <Filter>Source\ShootThemUp\Public\Player</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
