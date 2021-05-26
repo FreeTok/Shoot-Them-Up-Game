@@ -2,11 +2,11 @@
   Building ShootThemUpEditor...
   Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 4 actions with 12 processes...
-    [1/4] STUPlayerController.cpp
-    [2/4] UE4Editor-ShootThemUp-0004.lib
-       Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-0004.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-0004.exp
-    [3/4] UE4Editor-ShootThemUp-0004.dll
-       Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-0004.suppressed.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-0004.suppressed.exp
+    [1/4] STUBaseCharacter.cpp
+    [2/4] UE4Editor-ShootThemUp.lib
+       Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.exp
+    [3/4] UE4Editor-ShootThemUp.dll
+       Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.suppressed.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp.suppressed.exp
     [4/4] ShootThemUpEditor.target
-  Total time in Parallel executor: 1,86 seconds
-  Total execution time: 2,64 seconds
+  Total time in Parallel executor: 12,41 seconds
+  Total execution time: 12,92 seconds

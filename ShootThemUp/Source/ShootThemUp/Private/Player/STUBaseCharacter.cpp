@@ -48,15 +48,13 @@ void ASTUBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void ASTUBaseCharacter::MoveForward(float Amount)
 {
-    if (Amount = 0.f)
-        return;
+    if (Amount == 0.f) return;
     AddMovementInput(GetActorForwardVector(), Amount);
 }
 
 void ASTUBaseCharacter::MoveRight(float Amount)
 {
-    if (Amount = 0.f)
-        return;
+    if (Amount == 0.f) return;
     AddMovementInput(GetActorRightVector(), Amount);
 }
 
