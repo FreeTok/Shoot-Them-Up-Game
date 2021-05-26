@@ -14,8 +14,16 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define SHOOTTHEMUP_STUBaseCharacter_generated_h
 
 #define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_SPARSE_DATA
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetMovementDirection);
+
+
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetMovementDirection);
+
+
 #define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASTUBaseCharacter(); \

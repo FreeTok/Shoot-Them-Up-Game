@@ -48,15 +48,19 @@ void ASTUBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
 
 void ASTUBaseCharacter::MoveForward(float Amount)
 {
+    if (Amount = 0.f)
+        return;
     AddMovementInput(GetActorForwardVector(), Amount);
 }
 
-void ASTUBaseCharacter::MoveRight(float Amount) 
+void ASTUBaseCharacter::MoveRight(float Amount)
 {
+    if (Amount = 0.f)
+        return;
     AddMovementInput(GetActorRightVector(), Amount);
 }
 
-void ASTUBaseCharacter::StartSprinting() 
+void ASTUBaseCharacter::StartSprinting()
 {
     bIsSprinting = true;
 }
@@ -64,4 +68,15 @@ void ASTUBaseCharacter::StartSprinting()
 void ASTUBaseCharacter::EndSprinting()
 {
     bIsSprinting = false;
+}
+
+float ASTUBaseCharacter::GetMovementDirection() const
+{
+    if (GetVelocity().IsZero())
+        return 0.f;
+    const auto VelocotyNormal = GetVelocity().GetSafeNormal();
+    const auto AngleBetween = FMath::Acos(FVector::DotProduct(GetActorForwardVector(), VelocotyNormal));
+    const auto CrossProduct = FVector::CrossProduct(GetActorForwardVector(), VelocotyNormal);
+    const auto Degrees = FMath::RadiansToDegrees(AngleBetween);
+    return CrossProduct.IsZero() ? Degrees : Degrees * FMath::Sign(CrossProduct.Z);
 }
