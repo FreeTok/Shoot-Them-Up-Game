@@ -17,6 +17,9 @@ class SHOOTTHEMUP_API ASTUBaseCharacter : public ACharacter
 public:
     ASTUBaseCharacter();
 
+    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
+    bool bIsSprinting;
+
 protected:
     virtual void BeginPlay() override;
 
@@ -35,4 +38,6 @@ public:
 private:
     void MoveForward(float Amount);
     void MoveRight(float Amount);
+    void StartSprinting();
+    void EndSprinting();
 };

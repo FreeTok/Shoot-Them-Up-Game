@@ -4,6 +4,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "GameFramework/SpringArmComponent.h"
+#include "GameFramework/CharacterMovementComponent.h"
 
 // Sets default values
 ASTUBaseCharacter::ASTUBaseCharacter()
@@ -41,6 +42,8 @@ void ASTUBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
     PlayerInputComponent->BindAxis("LookUp", this, &ASTUBaseCharacter::AddControllerPitchInput);
     PlayerInputComponent->BindAxis("TurnAround", this, &ASTUBaseCharacter::AddControllerYawInput);
     PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASTUBaseCharacter::Jump);
+    PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ASTUBaseCharacter::StartSprinting);
+    PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ASTUBaseCharacter::EndSprinting);
 }
 
 void ASTUBaseCharacter::MoveForward(float Amount)
@@ -51,4 +54,14 @@ void ASTUBaseCharacter::MoveForward(float Amount)
 void ASTUBaseCharacter::MoveRight(float Amount) 
 {
     AddMovementInput(GetActorRightVector(), Amount);
+}
+
+void ASTUBaseCharacter::StartSprinting() 
+{
+    bIsSprinting = true;
+}
+
+void ASTUBaseCharacter::EndSprinting()
+{
+    bIsSprinting = false;
 }
