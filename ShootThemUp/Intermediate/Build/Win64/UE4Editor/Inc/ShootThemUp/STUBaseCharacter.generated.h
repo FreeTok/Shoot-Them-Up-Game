@@ -13,10 +13,10 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define SHOOTTHEMUP_STUBaseCharacter_generated_h
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_SPARSE_DATA
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_RPC_WRAPPERS
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_INCLASS_NO_PURE_DECLS \
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_SPARSE_DATA
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASTUBaseCharacter(); \
 	friend struct Z_Construct_UClass_ASTUBaseCharacter_Statics; \
@@ -25,7 +25,7 @@ public: \
 	DECLARE_SERIALIZER(ASTUBaseCharacter)
 
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_INCLASS \
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_INCLASS \
 private: \
 	static void StaticRegisterNativesASTUBaseCharacter(); \
 	friend struct Z_Construct_UClass_ASTUBaseCharacter_Statics; \
@@ -34,7 +34,7 @@ public: \
 	DECLARE_SERIALIZER(ASTUBaseCharacter)
 
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_STANDARD_CONSTRUCTORS \
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASTUBaseCharacter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASTUBaseCharacter) \
@@ -47,7 +47,7 @@ private: \
 public:
 
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_ENHANCED_CONSTRUCTORS \
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASTUBaseCharacter(ASTUBaseCharacter&&); \
@@ -58,31 +58,32 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASTUBaseCharacter); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASTUBaseCharacter)
 
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, CameraComponent); }
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, CameraComponent); } \
+	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, SpringArmComponent); }
 
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_11_PROLOG
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_GENERATED_BODY_LEGACY \
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_12_PROLOG
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_SPARSE_DATA \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_RPC_WRAPPERS \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_INCLASS \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_STANDARD_CONSTRUCTORS \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_SPARSE_DATA \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_INCLASS \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_GENERATED_BODY \
+#define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_PRIVATE_PROPERTY_OFFSET \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_SPARSE_DATA \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_RPC_WRAPPERS_NO_PURE_DECLS \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_INCLASS_NO_PURE_DECLS \
-	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_ENHANCED_CONSTRUCTORS \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_PRIVATE_PROPERTY_OFFSET \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_SPARSE_DATA \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_INCLASS_NO_PURE_DECLS \
+	ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_15_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
