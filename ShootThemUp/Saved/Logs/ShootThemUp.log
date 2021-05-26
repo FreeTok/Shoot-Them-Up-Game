@@ -1188,3 +1188,903 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2021.05.26-09.43.10:036][222]AssetCheck: New page: Asset Save: multiple assets
 [2021.05.26-09.43.10:036][222]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/_Maps/TestLevel_BuiltData.TestLevel_BuiltData
 [2021.05.26-09.43.10:036][222]LogContentValidation: Display: Validating World /Game/_Maps/TestLevel.TestLevel
+[2021.05.26-09.44.14:654][906]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2021.05.26-09.48.12:723][163]Candidate modules for hot reload:
+[2021.05.26-09.48.12:723][163]  ShootThemUp
+[2021.05.26-09.48.12:723][163]Launching UnrealBuildTool... [C:/Program Files/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ShootThemUp,7828 ShootThemUpEditor Win64 Development -Project="D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/ShootThemUp.uproject" "D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/ShootThemUp.uproject"  -IgnoreJunk]
+[2021.05.26-09.48.12:725][163]Warning: Starting HotReload took  0.0s.
+[2021.05.26-09.48.16:783][605]CompilerResultsLog: New page: Compilation - 26 мая 2021 г., 15:48:16
+[2021.05.26-09.48.16:783][605]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game).
+[2021.05.26-09.48.16:783][605]CompilerResultsLog: Building ShootThemUpEditor...
+[2021.05.26-09.48.16:783][605]CompilerResultsLog: Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.19041.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2021.05.26-09.48.16:783][605]CompilerResultsLog: Building 4 actions with 8 processes...
+[2021.05.26-09.48.16:783][605]CompilerResultsLog:   [1/4] STUBaseCharacter.cpp
+[2021.05.26-09.48.16:783][605]CompilerResultsLog:   [2/4] UE4Editor-ShootThemUp-7828.lib
+[2021.05.26-09.48.16:783][605]CompilerResultsLog:      Creating library D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-7828.lib and object D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-7828.exp
+[2021.05.26-09.48.16:783][605]CompilerResultsLog:   [3/4] UE4Editor-ShootThemUp-7828.dll
+[2021.05.26-09.48.16:783][605]CompilerResultsLog:      Creating library D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-7828.suppressed.lib and object D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\UE4Editor-ShootThemUp-7828.suppressed.exp
+[2021.05.26-09.48.16:784][605]CompilerResultsLog:   [4/4] ShootThemUpEditor.target
+[2021.05.26-09.48.16:784][605]CompilerResultsLog: Total time in Parallel executor: 3,20 seconds
+[2021.05.26-09.48.16:784][605]CompilerResultsLog: Total execution time: 3,99 seconds
+[2021.05.26-09.48.16:784][605]LogMainFrame: MainFrame: Module compiling took 4.070 seconds
+[2021.05.26-09.48.16:832][605]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ShootThemUp' in 0.0002 seconds. Added 3 classes and 4 folders.
+[2021.05.26-09.48.16:837][605]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.26-09.48.16:952][605]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0106 seconds. Added 3605 classes and 865 folders.
+[2021.05.26-09.48.16:952][605]Display: HotReload took  4.2s.
+[2021.05.26-09.48.20:199][959]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-09.48.20:203][959]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-09.48.20:203][959]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 15:48:20)
+[2021.05.26-09.48.20:243][959]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-09.48.20:246][959]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002742s)
+[2021.05.26-09.48.20:247][959]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-09.48.20:247][959]LogPlayLevel: PIE: World Init took: (0.001170s)
+[2021.05.26-09.48.20:247][959]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.004067s)
+[2021.05.26-09.48.20:341][959]LogUObjectHash: Compacting FUObjectHashTables data took   4.30ms
+[2021.05.26-09.48.20:342][959]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-09.48.20:342][959]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-09.48.20:342][959]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-09.48.20:342][959]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-09.48.20:344][959]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-09.48.20:344][959]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-09.48.20:355][959]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-09.48.20:356][959]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-09.48.20:356][959]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-09.48.20:356][959]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-09.48.20:356][959]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-09.48.20:356][959]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-09.48.20:356][959]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-09.48.20:368][959]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-09.48.20:368][959]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-09.48.20:368][959]LogInit: FAudioDevice initialized.
+[2021.05.26-09.48.20:368][959]LogAudio: Display: Audio Device (ID: 4) registered with world 'TestLevel'.
+[2021.05.26-09.48.20:378][959]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-09.48.20:380][959]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-12.48.20
+[2021.05.26-09.48.20:380][959]LogWorld: Bringing up level for play took: 0.000446
+[2021.05.26-09.48.20:380][959]LogOnline: OSS: Creating online subsystem instance for: :Context_20
+[2021.05.26-09.48.20:382][959]PIE: Server logged in
+[2021.05.26-09.48.20:382][959]PIE: Play in editor total start time 0,18 seconds.
+[2021.05.26-09.48.25:834][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-09.48.25:834][600]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-09.48.25:835][600]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-09.48.25:835][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-09.48.25:855][600]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-09.48.25:869][600]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-09.48.25:933][600]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-09.48.25:942][600]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-09.48.25:943][600]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-09.48.25:962][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-09.48.25:999][600]LogUObjectHash: Compacting FUObjectHashTables data took   4.65ms
+[2021.05.26-09.48.26:014][601]LogPlayLevel: Display: Destroying online subsystem :Context_20
+[2021.05.26-09.51.01:347][889]LogEditorTransaction: Undo Create Reroute Node
+[2021.05.26-09.51.01:410][889]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.51.17:309][727]LogEditorTransaction: Undo Create Reroute Node
+[2021.05.26-09.51.17:372][727]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.51.21:650][194]LogEditorTransaction: Undo Move Node
+[2021.05.26-09.51.21:721][194]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.51.23:200][319]LogEditorTransaction: Undo Create Reroute Node
+[2021.05.26-09.51.23:267][319]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.51.23:800][374]LogEditorTransaction: Undo Create Pin Link
+[2021.05.26-09.51.23:861][374]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.53.14:600][723]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-09.53.14:621][723]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:622][723]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:647][723]LogUObjectHash: Compacting FUObjectHashTables data took   3.23ms
+[2021.05.26-09.53.14:697][723]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacterA5EDC9704A945FDFB8543DA4F92C476C.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-09.53.14:709][723]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-09.53.14:709][723]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-09.53.14:710][723]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:724][724]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:763][725]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:771][726]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:780][727]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:790][728]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:799][729]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:808][730]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:835][731]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter3C805DC34CD926164378F5851DBF1D25.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-09.53.14:845][731]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-09.53.14:845][731]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-09.53.14:845][731]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:849][732]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:858][733]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:867][734]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:875][735]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.53.14:883][736]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_5
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.54.18:897][261]LogEditorTransaction: Undo Delete current selection
+[2021.05.26-09.54.18:959][261]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.54.35:370][134]LogEditorTransaction: Undo Delete current selection
+[2021.05.26-09.54.35:433][134]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.54.40:213][657]LogEditorTransaction: Undo Rename Node
+[2021.05.26-09.54.40:278][657]LogActorComponent: RegisterComponentWithWorld: (/Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0) Already registered. Aborting.
+[2021.05.26-09.55.16:079][608]LogUObjectHash: Compacting FUObjectHashTables data took   4.77ms
+[2021.05.26-09.55.16:084][608]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Maps/TestLevel' took 0.049
+[2021.05.26-09.55.16:084][608]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/Characters/Player/Animations/ABP_BaseCharacter] ([2] browsable assets)...
+[2021.05.26-09.55.16:100][608]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter]
+[2021.05.26-09.55.16:114][608]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter]
+[2021.05.26-09.55.16:114][608]OBJ SavePackage: Finished generating thumbnails for package [/Game/Characters/Player/Animations/ABP_BaseCharacter]
+[2021.05.26-09.55.16:126][608]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter_Auto2F84944154ABF3DBBAA8342B7E8DB9CA1.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Autosaves/Game/Characters/Player/Animations/ABP_BaseCharacter_Auto2.uasset'
+[2021.05.26-09.55.16:126][608]LogFileHelpers: Auto-saving content packages took 0.042
+[2021.05.26-09.56.06:287][770]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacterA5D48475421A48859ED90DA03C80DE3B.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-09.56.06:300][770]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-09.56.06:300][770]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-09.56.26:041][317]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-09.56.26:046][317]BlueprintLog: New page: Pre-Play auto-recompile
+[2021.05.26-09.56.26:046][317]LogPlayLevel: [PlayLevel] Compiling ABP_BaseCharacter before play...
+[2021.05.26-09.56.26:063][317]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.26:064][317]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.26:091][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
+[2021.05.26-09.56.26:095][317]LogPlayLevel: PlayLevel: Blueprint regeneration took 50 ms (1 blueprints)
+[2021.05.26-09.56.26:095][317]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 15:56:26)
+[2021.05.26-09.56.26:132][317]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-09.56.26:135][317]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002601s)
+[2021.05.26-09.56.26:136][317]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-09.56.26:136][317]LogPlayLevel: PIE: World Init took: (0.001075s)
+[2021.05.26-09.56.26:136][317]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.003851s)
+[2021.05.26-09.56.26:160][317]LogUObjectHash: Compacting FUObjectHashTables data took   2.08ms
+[2021.05.26-09.56.26:161][317]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2021.05.26-09.56.26:161][317]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-09.56.26:161][317]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-09.56.26:161][317]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-09.56.26:161][317]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-09.56.26:161][317]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-09.56.26:161][317]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-09.56.26:162][317]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-09.56.26:162][317]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-09.56.26:162][317]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-09.56.26:162][317]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-09.56.26:164][317]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-09.56.26:164][317]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-09.56.26:176][317]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-09.56.26:176][317]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-09.56.26:176][317]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-09.56.26:176][317]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-09.56.26:177][317]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-09.56.26:177][317]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-09.56.26:177][317]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-09.56.26:189][317]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-09.56.26:190][317]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-09.56.26:190][317]LogInit: FAudioDevice initialized.
+[2021.05.26-09.56.26:190][317]LogAudio: Display: Audio Device (ID: 5) registered with world 'TestLevel'.
+[2021.05.26-09.56.26:197][317]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-09.56.26:198][317]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-12.56.26
+[2021.05.26-09.56.26:198][317]LogWorld: Bringing up level for play took: 0.000515
+[2021.05.26-09.56.26:198][317]LogOnline: OSS: Creating online subsystem instance for: :Context_21
+[2021.05.26-09.56.26:200][317]PIE: Server logged in
+[2021.05.26-09.56.26:201][317]PIE: Play in editor total start time 0,157 seconds.
+[2021.05.26-09.56.28:344][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-09.56.28:344][564]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-09.56.28:344][564]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-09.56.28:344][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-09.56.28:354][564]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-09.56.28:361][564]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-09.56.28:402][564]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-09.56.28:402][564]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-09.56.28:404][564]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-09.56.28:426][564]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
+[2021.05.26-09.56.28:441][565]LogPlayLevel: Display: Destroying online subsystem :Context_21
+[2021.05.26-09.56.29:064][631]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:072][632]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:081][633]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:089][634]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:097][635]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:106][636]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:114][637]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:122][638]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:131][639]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:139][640]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:148][641]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:156][642]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:164][643]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.56.29:173][644]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_6
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.58.29:860][491]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter980068A4402052F050534480A09991D4.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-09.58.29:875][491]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-09.58.29:875][491]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-09.59.37:841][317]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-09.59.37:845][317]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] Walk to JumpStart  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.37:845][317]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.37:845][317]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.37:845][317]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpEnd to Walk  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.37:858][317]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:859][317]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:889][317]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2021.05.26-09.59.37:900][317]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:913][317]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2021.05.26-09.59.37:917][318]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:940][319]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:948][320]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:956][321]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:964][322]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:972][323]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:981][324]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:989][325]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.37:998][326]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.38:006][327]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.38:014][328]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.38:023][329]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.38:031][330]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_7
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:459][908]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-09.59.51:462][908]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpStart to JumpLoop  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.51:462][908]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpLoop to JumpEnd  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.51:462][908]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpEnd to Walk  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-09.59.51:475][908]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:475][908]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:500][908]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2021.05.26-09.59.51:508][908]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:527][909]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:564][910]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:576][911]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:585][912]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:594][913]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:602][914]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:611][915]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:619][916]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:626][917]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:635][918]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:643][919]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:651][920]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-09.59.51:660][921]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_8
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.18:811][127]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter00422BAD4306579FFE472D9C355E78F2.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.00.18:823][127]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.00.18:823][127]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.00.46:209][ 34]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-10.00.46:212][ 34]LogBlueprint: Warning: [AssetLog] D:\VSCH-2\Unreal Games\Shoot-Them-Up-Game\ShootThemUp\Content\Characters\Player\Animations\ABP_BaseCharacter.uasset: [Compiler] JumpEnd to Walk  will never be taken, please connect something to  Can Enter Transition
+[2021.05.26-10.00.46:227][ 34]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:227][ 34]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:255][ 34]LogUObjectHash: Compacting FUObjectHashTables data took   2.79ms
+[2021.05.26-10.00.46:262][ 34]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:274][ 35]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:310][ 36]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:318][ 37]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:326][ 38]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:335][ 39]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:344][ 40]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:352][ 41]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:360][ 42]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:369][ 43]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:377][ 44]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:385][ 45]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:394][ 46]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:402][ 47]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_9
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.00.46:779][ 84]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter2FDC855649D534FFF8D6CB9539472F5F.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.00.46:789][ 84]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.00.46:789][ 84]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.01.02:491][935]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-10.01.02:508][935]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:508][935]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:534][935]LogUObjectHash: Compacting FUObjectHashTables data took   2.76ms
+[2021.05.26-10.01.02:599][935]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacterAED534404D764F3B2DBC46AE36AB8A02.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.01.02:610][935]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.01.02:610][935]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.01.02:611][935]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:624][936]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:660][937]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:670][938]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:677][939]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:686][940]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:694][941]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:702][942]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:711][943]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:719][944]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:729][945]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:737][946]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:747][947]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.02:756][948]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_10
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0040
+[2021.05.26-10.01.05:325][250]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-10.01.05:329][250]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-10.01.05:329][250]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 16:01:05)
+[2021.05.26-10.01.05:361][250]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.01.05:367][250]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005219s)
+[2021.05.26-10.01.05:368][250]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-10.01.05:368][250]LogPlayLevel: PIE: World Init took: (0.001717s)
+[2021.05.26-10.01.05:368][250]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.007190s)
+[2021.05.26-10.01.05:418][250]LogUObjectHash: Compacting FUObjectHashTables data took   3.08ms
+[2021.05.26-10.01.05:419][250]LogAudio: Display: Creating Audio Device:                 Id: 6, Scope: Unique, Realtime: True
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-10.01.05:419][250]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-10.01.05:419][250]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-10.01.05:419][250]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-10.01.05:421][250]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-10.01.05:421][250]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-10.01.05:434][250]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-10.01.05:434][250]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-10.01.05:434][250]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-10.01.05:434][250]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-10.01.05:434][250]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-10.01.05:434][250]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-10.01.05:434][250]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-10.01.05:447][250]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-10.01.05:447][250]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-10.01.05:447][250]LogInit: FAudioDevice initialized.
+[2021.05.26-10.01.05:447][250]LogAudio: Display: Audio Device (ID: 6) registered with world 'TestLevel'.
+[2021.05.26-10.01.05:456][250]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-10.01.05:457][250]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-13.01.05
+[2021.05.26-10.01.05:457][250]LogWorld: Bringing up level for play took: 0.000436
+[2021.05.26-10.01.05:457][250]LogOnline: OSS: Creating online subsystem instance for: :Context_22
+[2021.05.26-10.01.05:460][250]PIE: Server logged in
+[2021.05.26-10.01.05:461][250]PIE: Play in editor total start time 0,133 seconds.
+[2021.05.26-10.01.14:942][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.01.14:942][381]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.01.14:942][381]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-10.01.14:942][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.01.14:951][381]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-10.01.14:958][381]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.01.15:005][381]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-10.01.15:005][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.01.15:007][381]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.01.15:024][381]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.01.15:027][381]LogUObjectHash: Compacting FUObjectHashTables data took   2.37ms
+[2021.05.26-10.01.15:044][382]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2021.05.26-10.02.15:930][ 16]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter937D976D4154BB4384715495A8C4CE17.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.02.15:944][ 16]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.02.15:944][ 16]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.02.16:992][132]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-10.02.17:019][132]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:019][132]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:043][132]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
+[2021.05.26-10.02.17:051][132]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:065][133]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:089][134]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:097][135]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:105][136]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:113][137]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:122][138]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:130][139]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:138][140]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:147][141]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:154][142]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:163][143]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:171][144]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.17:180][145]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_11
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:00A8
+[2021.05.26-10.02.18:733][327]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-10.02.18:737][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-10.02.18:737][327]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 16:02:18)
+[2021.05.26-10.02.18:772][327]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.02.18:779][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006635s)
+[2021.05.26-10.02.18:781][327]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-10.02.18:781][327]LogPlayLevel: PIE: World Init took: (0.002392s)
+[2021.05.26-10.02.18:781][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.009373s)
+[2021.05.26-10.02.18:823][327]LogUObjectHash: Compacting FUObjectHashTables data took   4.66ms
+[2021.05.26-10.02.18:824][327]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-10.02.18:824][327]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-10.02.18:824][327]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-10.02.18:824][327]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-10.02.18:826][327]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-10.02.18:826][327]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-10.02.18:838][327]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-10.02.18:838][327]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-10.02.18:838][327]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-10.02.18:838][327]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-10.02.18:838][327]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-10.02.18:838][327]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-10.02.18:838][327]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-10.02.18:851][327]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-10.02.18:851][327]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-10.02.18:851][327]LogInit: FAudioDevice initialized.
+[2021.05.26-10.02.18:851][327]LogAudio: Display: Audio Device (ID: 7) registered with world 'TestLevel'.
+[2021.05.26-10.02.18:860][327]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-10.02.18:862][327]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-13.02.18
+[2021.05.26-10.02.18:863][327]LogWorld: Bringing up level for play took: 0.001048
+[2021.05.26-10.02.18:863][327]LogOnline: OSS: Creating online subsystem instance for: :Context_23
+[2021.05.26-10.02.18:868][327]PIE: Server logged in
+[2021.05.26-10.02.18:870][327]PIE: Play in editor total start time 0,134 seconds.
+[2021.05.26-10.02.22:716][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.02.22:716][779]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.02.22:717][779]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-10.02.22:717][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.02.22:736][779]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-10.02.22:750][779]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.02.22:815][779]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-10.02.22:816][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.02.22:817][779]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.02.22:840][779]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.02.22:846][779]LogUObjectHash: Compacting FUObjectHashTables data took   3.97ms
+[2021.05.26-10.02.22:869][780]LogPlayLevel: Display: Destroying online subsystem :Context_23
+[2021.05.26-10.03.02:880][446]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacterA16A7F3B4CEE2AC9E3B261A393806356.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.03.02:893][446]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.03.02:893][446]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.03.03:608][526]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-10.03.03:626][526]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:626][526]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:652][526]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2021.05.26-10.03.03:657][526]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:683][527]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:698][528]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:706][529]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:713][530]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:722][531]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:730][532]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:738][533]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:747][534]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:755][535]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:763][536]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:772][537]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:780][538]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.03:789][539]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_12
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.03.05:241][686]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-10.03.05:245][686]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-10.03.05:245][686]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 16:03:05)
+[2021.05.26-10.03.05:271][686]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.03.05:275][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003872s)
+[2021.05.26-10.03.05:276][686]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-10.03.05:276][686]LogPlayLevel: PIE: World Init took: (0.001296s)
+[2021.05.26-10.03.05:276][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.005336s)
+[2021.05.26-10.03.05:302][686]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2021.05.26-10.03.05:303][686]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-10.03.05:303][686]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-10.03.05:303][686]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-10.03.05:303][686]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-10.03.05:305][686]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-10.03.05:305][686]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-10.03.05:316][686]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-10.03.05:316][686]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-10.03.05:316][686]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-10.03.05:316][686]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-10.03.05:316][686]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-10.03.05:316][686]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-10.03.05:316][686]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-10.03.05:329][686]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-10.03.05:329][686]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-10.03.05:329][686]LogInit: FAudioDevice initialized.
+[2021.05.26-10.03.05:329][686]LogAudio: Display: Audio Device (ID: 8) registered with world 'TestLevel'.
+[2021.05.26-10.03.05:334][686]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-10.03.05:336][686]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-13.03.05
+[2021.05.26-10.03.05:336][686]LogWorld: Bringing up level for play took: 0.000425
+[2021.05.26-10.03.05:336][686]LogOnline: OSS: Creating online subsystem instance for: :Context_24
+[2021.05.26-10.03.05:339][686]PIE: Server logged in
+[2021.05.26-10.03.05:339][686]PIE: Play in editor total start time 0,095 seconds.
+[2021.05.26-10.03.10:852][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.03.10:852][343]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.03.10:852][343]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-10.03.10:853][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.03.10:863][343]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-10.03.10:870][343]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.03.10:915][343]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-10.03.10:915][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.03.10:916][343]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.03.10:936][343]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.03.10:939][343]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
+[2021.05.26-10.03.10:958][344]LogPlayLevel: Display: Destroying online subsystem :Context_24
+[2021.05.26-10.04.55:532][ 32]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter0A41BB1D45DAC44B59B889B561309886.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.04.55:545][ 32]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.04.55:545][ 32]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.05.03:825][  0]BlueprintLog: New page: Compile ABP_BaseCharacter
+[2021.05.26-10.05.03:846][  0]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_6:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.03:847][  0]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.03:872][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.95ms
+[2021.05.26-10.05.03:930][  0]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/ABP_BaseCharacter9A33D9E34F7F424898BB59A16710D91A.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Animations/ABP_BaseCharacter.uasset'
+[2021.05.26-10.05.03:941][  0]AssetCheck: New page: Asset Save: ABP_BaseCharacter
+[2021.05.26-10.05.03:941][  0]LogContentValidation: Display: Validating AnimBlueprint /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter
+[2021.05.26-10.05.03:942][  0]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.03:960][  1]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.03:992][  2]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:002][  3]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:010][  4]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:019][  5]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:029][  6]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:038][  7]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:048][  8]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:057][  9]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:066][ 10]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:075][ 11]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:084][ 12]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.04:093][ 13]LogScript: Warning: Accessed None trying to read property CallFunc_TryGetPawnOwner_ReturnValue
+	ABP_BaseCharacter_C /Engine/Transient.World_2:PersistentLevel.AnimationEditorPreviewActor_0.DebugSkelMeshComponent_0.ABP_BaseCharacter_C_13
+	Function /Game/Characters/Player/Animations/ABP_BaseCharacter.ABP_BaseCharacter_C:ExecuteUbergraph_ABP_BaseCharacter:0110
+[2021.05.26-10.05.07:699][415]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-10.05.07:704][415]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-10.05.07:704][415]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 16:05:07)
+[2021.05.26-10.05.07:732][415]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.05.07:734][415]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002321s)
+[2021.05.26-10.05.07:735][415]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-10.05.07:735][415]LogPlayLevel: PIE: World Init took: (0.000980s)
+[2021.05.26-10.05.07:735][415]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.003455s)
+[2021.05.26-10.05.07:761][415]LogUObjectHash: Compacting FUObjectHashTables data took   2.73ms
+[2021.05.26-10.05.07:762][415]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-10.05.07:762][415]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-10.05.07:762][415]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-10.05.07:762][415]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-10.05.07:765][415]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-10.05.07:765][415]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-10.05.07:776][415]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-10.05.07:776][415]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-10.05.07:776][415]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-10.05.07:776][415]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-10.05.07:776][415]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-10.05.07:776][415]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-10.05.07:776][415]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-10.05.07:789][415]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-10.05.07:789][415]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-10.05.07:789][415]LogInit: FAudioDevice initialized.
+[2021.05.26-10.05.07:789][415]LogAudio: Display: Audio Device (ID: 9) registered with world 'TestLevel'.
+[2021.05.26-10.05.07:796][415]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-10.05.07:797][415]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-13.05.07
+[2021.05.26-10.05.07:797][415]LogWorld: Bringing up level for play took: 0.000575
+[2021.05.26-10.05.07:797][415]LogOnline: OSS: Creating online subsystem instance for: :Context_25
+[2021.05.26-10.05.07:799][415]PIE: Server logged in
+[2021.05.26-10.05.07:800][415]PIE: Play in editor total start time 0,097 seconds.
+[2021.05.26-10.05.26:662][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.05.26:662][670]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.05.26:662][670]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-10.05.26:663][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.05.26:670][670]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-10.05.26:674][670]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.05.26:706][670]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2021.05.26-10.05.26:707][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.05.26:708][670]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.05.26:727][670]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.05.26:730][670]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2021.05.26-10.05.26:744][671]LogPlayLevel: Display: Destroying online subsystem :Context_25
+[2021.05.26-10.06.09:589][317]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2021.05.26-10.06.35:992][495]LogTemp: Repeating last play command: Selected Viewport
+[2021.05.26-10.06.35:996][495]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2021.05.26-10.06.35:996][495]PIE: New page: PIE session: TestLevel (26 мая 2021 г., 16:06:35)
+[2021.05.26-10.06.36:031][495]LogPlayLevel: Creating play world package: /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.06.36:038][495]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006081s)
+[2021.05.26-10.06.36:038][495]LogAIModule: Creating AISystem for world TestLevel
+[2021.05.26-10.06.36:038][495]LogPlayLevel: PIE: World Init took: (0.000930s)
+[2021.05.26-10.06.36:039][495]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/_Maps/TestLevel.TestLevel to /Game/_Maps/UEDPIE_0_TestLevel.TestLevel (0.007161s)
+[2021.05.26-10.06.36:062][495]LogUObjectHash: Compacting FUObjectHashTables data took   2.15ms
+[2021.05.26-10.06.36:066][495]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: 	Number of buffers to queue:			  2
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: 	Number of Async Source Workers:		  0
+[2021.05.26-10.06.36:066][495]LogAudio: Display: AudioDevice MaxSources: 32
+[2021.05.26-10.06.36:066][495]LogAudio: Display: Using built-in audio occlusion.
+[2021.05.26-10.06.36:066][495]LogAudioMixer: Display: Initializing audio mixer.
+[2021.05.26-10.06.36:068][495]LogAudioMixer: Display: 0: FrontLeft
+[2021.05.26-10.06.36:068][495]LogAudioMixer: Display: 1: FrontRight
+[2021.05.26-10.06.36:079][495]LogAudioMixer: Display: Using Audio Device Динамики (Realtek High Definition Audio)
+[2021.05.26-10.06.36:080][495]LogAudioMixer: Display: Initializing Sound Submixes...
+[2021.05.26-10.06.36:080][495]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2021.05.26-10.06.36:080][495]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2021.05.26-10.06.36:080][495]LogAudioMixer: Display: Creating Master Submix 'MasterEQSubmixDefault'
+[2021.05.26-10.06.36:080][495]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called
+[2021.05.26-10.06.36:080][495]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048
+[2021.05.26-10.06.36:093][495]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal()
+[2021.05.26-10.06.36:093][495]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time
+[2021.05.26-10.06.36:093][495]LogInit: FAudioDevice initialized.
+[2021.05.26-10.06.36:093][495]LogAudio: Display: Audio Device (ID: 10) registered with world 'TestLevel'.
+[2021.05.26-10.06.36:099][495]LogLoad: Game class is 'BP_STUGameModeBase_C'
+[2021.05.26-10.06.36:100][495]LogWorld: Bringing World /Game/_Maps/UEDPIE_0_TestLevel.TestLevel up for play (max tick rate 0) at 2021.05.26-13.06.36
+[2021.05.26-10.06.36:100][495]LogWorld: Bringing up level for play took: 0.000559
+[2021.05.26-10.06.36:100][495]LogOnline: OSS: Creating online subsystem instance for: :Context_26
+[2021.05.26-10.06.36:103][495]PIE: Server logged in
+[2021.05.26-10.06.36:103][495]PIE: Play in editor total start time 0,109 seconds.
+[2021.05.26-10.06.45:821][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.06.45:821][657]LogWorld: BeginTearingDown for /Game/_Maps/UEDPIE_0_TestLevel
+[2021.05.26-10.06.45:821][657]LogWorld: UWorld::CleanupWorld for TestLevel, bSessionEnded=true, bCleanupResources=true
+[2021.05.26-10.06.45:821][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.06.45:843][657]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2021.05.26-10.06.45:895][657]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2021.05.26-10.06.45:935][657]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2021.05.26-10.06.45:935][657]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.06.45:936][657]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called
+[2021.05.26-10.06.45:959][657]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2021.05.26-10.06.45:986][658]LogPlayLevel: Display: Destroying online subsystem :Context_26
+[2021.05.26-10.07.10:517][758]LogUObjectHash: Compacting FUObjectHashTables data took   2.48ms
+[2021.05.26-10.07.10:534][758]LogSavePackage: Moving 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/TestLevel_Auto3D059167C4AB6C3CB47B0B3986CFB1656.tmp' to 'D:/VSCH-2/Unreal Games/Shoot-Them-Up-Game/ShootThemUp/Saved/Autosaves/Game/_Maps/TestLevel_Auto3.umap'
+[2021.05.26-10.07.10:534][758]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/_Maps/TestLevel' took 0.074
+[2021.05.26-10.07.10:534][758]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.074
