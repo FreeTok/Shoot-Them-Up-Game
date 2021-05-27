@@ -2093,3 +2093,12 @@ LogConfig: Setting CVar [[fx.NiagaraAllowRuntimeScalabilityChanges:1]]
 [2021.05.27-05.57.48:537][377]LogSavePackage: Moving '../../../../My Games/Shoot-Them-Up-Game/ShootThemUp/Saved/BP_STUBaseCharacterAD3B529A41C729428CA04E86A2520DEC.tmp' to '../../../../My Games/Shoot-Them-Up-Game/ShootThemUp/Content/Characters/Player/Blueprints/BP_STUBaseCharacter.uasset'
 [2021.05.27-05.57.48:549][377]AssetCheck: New page: Asset Save: BP_STUBaseCharacter
 [2021.05.27-05.57.48:550][377]LogContentValidation: Display: Validating Blueprint /Game/Characters/Player/Blueprints/BP_STUBaseCharacter.BP_STUBaseCharacter
+[2021.05.27-06.01.51:085][116]LogHotReload: New module detected: UnrealEditor-ShootThemUp-0006.dll
+[2021.05.27-06.01.51:774][119]LogHotReload: Starting Hot-Reload from IDE
+[2021.05.27-06.01.51:829][119]LogClass: Could not find existing class STUBaseCharacter in package /Script/ShootThemUp for HotReload, assuming new class
+[2021.05.27-06.01.51:829][119]LogClass: Function GetMovementDirection is new.
+[2021.05.27-06.01.51:851][119]LogHotReload: Re-instancing STUBaseCharacter after hot-reload.
+[2021.05.27-06.01.51:906][119]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ShootThemUp' in 0.0003 seconds. Added 4 classes and 5 folders.
+[2021.05.27-06.01.51:912][119]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2021.05.27-06.01.52:029][119]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0145 seconds. Added 4368 classes and 998 folders.
+[2021.05.27-06.01.52:050][119]Display: HotReload took  0.3s.

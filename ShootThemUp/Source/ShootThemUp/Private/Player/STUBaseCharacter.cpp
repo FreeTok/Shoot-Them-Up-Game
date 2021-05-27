@@ -23,14 +23,17 @@ ASTUBaseCharacter::ASTUBaseCharacter()
 
     HealthComponent = CreateDefaultSubobject<USTUHealthComponent>("HealthComponent");
 
-    HelthTextComponent = CreateDefaultSubobject<UTextRenderComponent>("HealthTextComponent");
-    HelthTextComponent->SetupAttachment(GetRootComponent());
+    HealthTextComponent = CreateDefaultSubobject<UTextRenderComponent>("HealthTextComponent");
+    HealthTextComponent->SetupAttachment(GetRootComponent());
 }
 
 // Called when the game starts or when spawned
 void ASTUBaseCharacter::BeginPlay()
 {
     Super::BeginPlay();
+
+    check(HealthComponent);
+    check(HealthTextComponent);
 }
 
 // Called every frame
@@ -39,7 +42,7 @@ void ASTUBaseCharacter::Tick(float DeltaTime)
     Super::Tick(DeltaTime);
 
     const auto Health = HealthComponent->GetHealth();
-    HelthTextComponent->SetText(FText::FromString(FString::Printf(TEXT("%.0f"), Health)));
+    HealthTextComponent->SetText(FText::FromString(FString::Printf(TEXT("%.0f"), Health)));
 }
 
 // Called to bind functionality to input

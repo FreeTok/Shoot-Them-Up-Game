@@ -35,7 +35,7 @@ protected:
     USTUHealthComponent* HealthComponent;
 
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
-    UTextRenderComponent* HelthTextComponent;
+    UTextRenderComponent* HealthTextComponent;
 
 public:
     // Called every frame
