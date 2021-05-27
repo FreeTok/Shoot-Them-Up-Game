@@ -1,0 +1,9 @@
+D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\Definitions.ShootThemUp.h
+D:\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+D:\UE_5.0EA\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp/Public/STUGameModeBase.h
+D:\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+D:\UE_5.0EA\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+D:\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\ServerStatReplicator.generated.h
+D:\UE_5.0EA\Engine\Intermediate\Build\Win64\UnrealEditor\Inc\Engine\GameModeBase.generated.h
+D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Inc\ShootThemUp\STUGameModeBase.generated.h

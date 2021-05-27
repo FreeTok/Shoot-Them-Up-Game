@@ -1,3 +1,0 @@
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Development\ShootThemUp\Definitions.ShootThemUp.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Public\Player/STUPlayerController.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UE4Editor\Inc\ShootThemUp\STUPlayerController.generated.h
