@@ -34,7 +34,7 @@ protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     USTUHealthComponent* HealthComponent;
 
-    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
+    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components", meta = (UIMin = "0.0", UIMax = "10.0"))
     UTextRenderComponent* HealthTextComponent;
 
 public:

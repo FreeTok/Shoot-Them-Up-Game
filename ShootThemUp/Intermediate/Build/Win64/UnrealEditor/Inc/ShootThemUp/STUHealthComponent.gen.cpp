@@ -17,9 +17,85 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 	SHOOTTHEMUP_API UClass* Z_Construct_UClass_USTUHealthComponent();
 	ENGINE_API UClass* Z_Construct_UClass_UActorComponent();
 	UPackage* Z_Construct_UPackage__Script_ShootThemUp();
+	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_UDamageType_NoRegister();
+	ENGINE_API UClass* Z_Construct_UClass_AController_NoRegister();
 // End Cross Module References
+	DEFINE_FUNCTION(USTUHealthComponent::execOnTakeAnyDamage)
+	{
+		P_GET_OBJECT(AActor,Z_Param_DamagedActor);
+		P_GET_PROPERTY(FFloatProperty,Z_Param_Damage);
+		P_GET_OBJECT(UDamageType,Z_Param_DamageType);
+		P_GET_OBJECT(AController,Z_Param_InstigatedBy);
+		P_GET_OBJECT(AActor,Z_Param_DamageCauser);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->OnTakeAnyDamage(Z_Param_DamagedActor,Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser);
+		P_NATIVE_END;
+	}
 	void USTUHealthComponent::StaticRegisterNativesUSTUHealthComponent()
 	{
+		UClass* Class = USTUHealthComponent::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "OnTakeAnyDamage", &USTUHealthComponent::execOnTakeAnyDamage },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics
+	{
+		struct STUHealthComponent_eventOnTakeAnyDamage_Parms
+		{
+			AActor* DamagedActor;
+			float Damage;
+			const UDamageType* DamageType;
+			AController* InstigatedBy;
+			AActor* DamageCauser;
+		};
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DamagedActor;
+		static const UECodeGen_Private::FFloatPropertyParams NewProp_Damage;
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam NewProp_DamageType_MetaData[];
+#endif
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DamageType;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_InstigatedBy;
+		static const UECodeGen_Private::FObjectPropertyParams NewProp_DamageCauser;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamagedActor = { "DamagedActor", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(STUHealthComponent_eventOnTakeAnyDamage_Parms, DamagedActor), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_Damage = { "Damage", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(STUHealthComponent_eventOnTakeAnyDamage_Parms, Damage), METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageType_MetaData[] = {
+		{ "NativeConst", "" },
+	};
+#endif
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageType = { "DamageType", nullptr, (EPropertyFlags)0x0010000000000082, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(STUHealthComponent_eventOnTakeAnyDamage_Parms, DamageType), Z_Construct_UClass_UDamageType_NoRegister, METADATA_PARAMS(Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageType_MetaData, UE_ARRAY_COUNT(Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageType_MetaData)) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_InstigatedBy = { "InstigatedBy", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(STUHealthComponent_eventOnTakeAnyDamage_Parms, InstigatedBy), Z_Construct_UClass_AController_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageCauser = { "DamageCauser", nullptr, (EPropertyFlags)0x0010000000000080, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(STUHealthComponent_eventOnTakeAnyDamage_Parms, DamageCauser), Z_Construct_UClass_AActor_NoRegister, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamagedActor,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_Damage,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageType,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_InstigatedBy,
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::NewProp_DamageCauser,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Components/STUHealthComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USTUHealthComponent, nullptr, "OnTakeAnyDamage", nullptr, nullptr, sizeof(STUHealthComponent_eventOnTakeAnyDamage_Parms), Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x00040401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_USTUHealthComponent_NoRegister()
 	{
@@ -28,6 +104,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 	struct Z_Construct_UClass_USTUHealthComponent_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -42,6 +119,9 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 	UObject* (*const Z_Construct_UClass_USTUHealthComponent_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_UActorComponent,
 		(UObject* (*)())Z_Construct_UPackage__Script_ShootThemUp,
+	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_USTUHealthComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage, "OnTakeAnyDamage" }, // 3192997583
 	};
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_USTUHealthComponent_Statics::Class_MetaDataParams[] = {
@@ -69,11 +149,11 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 		"Engine",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_USTUHealthComponent_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_USTUHealthComponent_Statics::PropPointers),
 		0,
 		0x00B000A4u,
@@ -88,7 +168,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USTUHealthComponent, 1956011179);
+	IMPLEMENT_CLASS(USTUHealthComponent, 3926433588);
 	template<> SHOOTTHEMUP_API UClass* StaticClass<USTUHealthComponent>()
 	{
 		return USTUHealthComponent::StaticClass();

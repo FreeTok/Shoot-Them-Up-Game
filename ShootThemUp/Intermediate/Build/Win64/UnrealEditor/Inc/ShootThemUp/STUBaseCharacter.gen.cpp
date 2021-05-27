@@ -160,6 +160,8 @@ void EmptyLinkFunctionForGeneratedCodeSTUBaseCharacter() {}
 		{ "Category", "Components" },
 		{ "EditInline", "true" },
 		{ "ModuleRelativePath", "Public/Player/STUBaseCharacter.h" },
+		{ "UIMax", "10.0" },
+		{ "UIMin", "0.0" },
 	};
 #endif
 	const UECodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASTUBaseCharacter_Statics::NewProp_HealthTextComponent = { "HealthTextComponent", nullptr, (EPropertyFlags)0x00200800000a000d, UECodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASTUBaseCharacter, HealthTextComponent), Z_Construct_UClass_UTextRenderComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASTUBaseCharacter_Statics::NewProp_HealthTextComponent_MetaData, UE_ARRAY_COUNT(Z_Construct_UClass_ASTUBaseCharacter_Statics::NewProp_HealthTextComponent_MetaData)) };
@@ -197,7 +199,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUBaseCharacter() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASTUBaseCharacter, 3609942900);
+	IMPLEMENT_CLASS(ASTUBaseCharacter, 3962105683);
 	template<> SHOOTTHEMUP_API UClass* StaticClass<ASTUBaseCharacter>()
 	{
 		return ASTUBaseCharacter::StaticClass();
