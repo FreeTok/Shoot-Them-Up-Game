@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ShootThemUp.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{0E97003F-8D5B-4E0C-BDA5-C896A51FEEEF}</UniqueIdentifier>
+      <UniqueIdentifier>{1338338F-F244-479E-8409-69B4623DA8C4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootThemUp.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\.clang-format" />
     <Filter Include="Config">
-      <UniqueIdentifier>{06210736-CFD8-4917-8340-C254051A5613}</UniqueIdentifier>
+      <UniqueIdentifier>{013AFBC7-4EB5-47AD-82AA-B8DEE8FAF2F0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ShootThemUp">
-      <UniqueIdentifier>{049791FA-A125-478E-B19F-B2FD77D7E38B}</UniqueIdentifier>
+      <UniqueIdentifier>{6E004F43-DBA7-4E9C-8289-DC38CACC510E}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ShootThemUp\ShootThemUp.Build.cs">
       <Filter>Source\ShootThemUp</Filter>
@@ -40,19 +40,25 @@
       <Filter>Source\ShootThemUp</Filter>
     </ClInclude>
     <Filter Include="Source\ShootThemUp\Private">
-      <UniqueIdentifier>{53BBC8C0-FB0D-4A38-B018-3943FEA5E433}</UniqueIdentifier>
+      <UniqueIdentifier>{72433C0B-192D-41B0-8EC9-1CE065199C1E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShootThemUp\Private\STUGameModeBase.cpp">
       <Filter>Source\ShootThemUp\Private</Filter>
     </ClCompile>
     <Filter Include="Source\ShootThemUp\Private\Components">
-      <UniqueIdentifier>{899E6F8A-198D-4AC8-818B-2FDE6D405F56}</UniqueIdentifier>
+      <UniqueIdentifier>{340A5230-37CB-431F-AE2C-AAB4E9335E01}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShootThemUp\Private\Components\STUHealthComponent.cpp">
       <Filter>Source\ShootThemUp\Private\Components</Filter>
     </ClCompile>
+    <Filter Include="Source\ShootThemUp\Private\Dev">
+      <UniqueIdentifier>{7B1084D5-CE92-4610-96A3-805E79016E76}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\ShootThemUp\Private\Dev\STUDevDamageActor.cpp">
+      <Filter>Source\ShootThemUp\Private\Dev</Filter>
+    </ClCompile>
     <Filter Include="Source\ShootThemUp\Private\Player">
-      <UniqueIdentifier>{F2DEAE4D-7178-4AC8-8D8D-260875F055AD}</UniqueIdentifier>
+      <UniqueIdentifier>{FD2E4E72-E677-4341-BF54-F4438B6632D0}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\ShootThemUp\Private\Player\STUBaseCharacter.cpp">
       <Filter>Source\ShootThemUp\Private\Player</Filter>
@@ -61,19 +67,25 @@
       <Filter>Source\ShootThemUp\Private\Player</Filter>
     </ClCompile>
     <Filter Include="Source\ShootThemUp\Public">
-      <UniqueIdentifier>{F7A68FA6-19D3-411C-BE0F-3478D43C9B50}</UniqueIdentifier>
+      <UniqueIdentifier>{FED454DD-6EB7-461F-BF3C-BD8350E8F758}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShootThemUp\Public\STUGameModeBase.h">
       <Filter>Source\ShootThemUp\Public</Filter>
     </ClInclude>
     <Filter Include="Source\ShootThemUp\Public\Components">
-      <UniqueIdentifier>{FB530668-ECDB-4CD0-935D-87B805EBBFF7}</UniqueIdentifier>
+      <UniqueIdentifier>{A8562FB2-2C86-4F71-8124-F00EC12F14AF}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShootThemUp\Public\Components\STUHealthComponent.h">
       <Filter>Source\ShootThemUp\Public\Components</Filter>
     </ClInclude>
+    <Filter Include="Source\ShootThemUp\Public\Dev">
+      <UniqueIdentifier>{7CD48541-B475-4885-BFFD-472B95A9C39F}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\ShootThemUp\Public\Dev\STUDevDamageActor.h">
+      <Filter>Source\ShootThemUp\Public\Dev</Filter>
+    </ClInclude>
     <Filter Include="Source\ShootThemUp\Public\Player">
-      <UniqueIdentifier>{D9AE7773-56B4-46EB-8BED-8112289D6482}</UniqueIdentifier>
+      <UniqueIdentifier>{83FE7943-35BD-49AA-81F1-8038068C8B9B}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\ShootThemUp\Public\Player\STUBaseCharacter.h">
       <Filter>Source\ShootThemUp\Public\Player</Filter>

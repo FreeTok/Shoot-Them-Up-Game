@@ -2,10 +2,22 @@
   operable program or batch file.
   Win64 using Manual SDK 10.0.18362.0
   Using 'git status' to determine working set for adaptive non-unity build (D:\My Games\Shoot-Them-Up-Game).
+  Invalidating makefile for ShootThemUpEditor (STUHealthComponent.cpp modified)
+  Parsing headers for ShootThemUpEditor
+    Running UnrealHeaderTool "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\ShootThemUp.uproject" "D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\ShootThemUpEditor\Development\ShootThemUpEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\FreeTok\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+  Reflection code generated for ShootThemUpEditor in 6,114267 seconds
   Building ShootThemUpEditor...
   Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from ShootThemUp unity file: STUHealthComponent.cpp, STUBaseCharacter.cpp
-  Building 1 action with 12 processes...
-    [1/1] ShootThemUpEditor.target
-  Total time in Parallel executor: 0,26 seconds
-  Total execution time: 1,09 seconds
+  [Adaptive Build] Excluded from ShootThemUp unity file: STUHealthComponent.cpp, STUDevDamageActor.cpp, STUBaseCharacter.cpp
+  Building 7 actions with 12 processes...
+    [1/7] ShootThemUp.init.gen.cpp
+    [2/7] STUDevDamageActor.gen.cpp
+    [3/7] STUHealthComponent.cpp
+    [4/7] STUDevDamageActor.cpp
+    [5/7] UnrealEditor-ShootThemUp-0009.lib
+       Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp-0009.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp-0009.exp
+    [6/7] UnrealEditor-ShootThemUp-0009.dll
+       Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp-0009.suppressed.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp-0009.suppressed.exp
+    [7/7] ShootThemUpEditor.target
+  Total time in Parallel executor: 53,83 seconds
+  Total execution time: 62,23 seconds
