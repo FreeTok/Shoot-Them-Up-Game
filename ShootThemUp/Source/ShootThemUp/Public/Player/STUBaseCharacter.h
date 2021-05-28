@@ -40,8 +40,16 @@ protected:
     UPROPERTY(EditDefaultsOnly, Category = "Animation")
     UAnimMontage* DeathAnimMonatage;
 
+    UPROPERTY(EditDefaultsOnly, Category = "Damage")
+    float LifeSpanOnDeath = 5.f;
+
+    UPROPERTY(EditDefaultsOnly, Category = "Damage")
+    FVector2D LandedDamageVelocity = FVector2D(900.f, 1200.f);
+
+    UPROPERTY(EditDefaultsOnly, Category = "Damage")
+    FVector2D LandedDamage = FVector2D(10.f, 100.f);
+
 public:
-    // Called every frame
     virtual void Tick(float DeltaTime) override;
 
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
@@ -50,10 +58,15 @@ public:
     float GetMovementDirection() const;
 
 private:
+    UFUNCTION()
+    void OnGroundLanded(const FHitResult& Hit);
+
     void MoveForward(float Amount);
     void MoveRight(float Amount);
+
     void StartSprinting();
     void EndSprinting();
+
     void OnDeath();
     void OnHealthChanged(float Health);
 };

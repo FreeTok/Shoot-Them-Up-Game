@@ -31,8 +31,6 @@ void USTUHealthComponent::Heal(float HealNum)
         return;
     Health = FMath::Clamp(Health + HealNum, 0.0f, MaxHealth);
     OnHealthChanged.Broadcast(Health);
-
-    UE_LOG(LogHealthComponent, Warning, TEXT("Reagened %f health"), HealNum)
 }
 
 void USTUHealthComponent::PassiveHeal(float HealUpdateT)
