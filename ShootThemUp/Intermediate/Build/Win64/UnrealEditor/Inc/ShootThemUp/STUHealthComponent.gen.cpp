@@ -33,13 +33,58 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 		P_THIS->OnTakeAnyDamage(Z_Param_DamagedActor,Z_Param_Damage,Z_Param_DamageType,Z_Param_InstigatedBy,Z_Param_DamageCauser);
 		P_NATIVE_END;
 	}
+	DEFINE_FUNCTION(USTUHealthComponent::execIsDead)
+	{
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		*(bool*)Z_Param__Result=P_THIS->IsDead();
+		P_NATIVE_END;
+	}
 	void USTUHealthComponent::StaticRegisterNativesUSTUHealthComponent()
 	{
 		UClass* Class = USTUHealthComponent::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "IsDead", &USTUHealthComponent::execIsDead },
 			{ "OnTakeAnyDamage", &USTUHealthComponent::execOnTakeAnyDamage },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics
+	{
+		struct STUHealthComponent_eventIsDead_Parms
+		{
+			bool ReturnValue;
+		};
+		static void NewProp_ReturnValue_SetBit(void* Obj);
+		static const UECodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::NewProp_ReturnValue_SetBit(void* Obj)
+	{
+		((STUHealthComponent_eventIsDead_Parms*)Obj)->ReturnValue = 1;
+	}
+	const UECodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UECodeGen_Private::EPropertyGenFlags::Bool | UECodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(STUHealthComponent_eventIsDead_Parms), &Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/Components/STUHealthComponent.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_USTUHealthComponent, nullptr, "IsDead", nullptr, nullptr, sizeof(STUHealthComponent_eventIsDead_Parms), Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::Function_MetaDataParams, UE_ARRAY_COUNT(Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_USTUHealthComponent_IsDead()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_USTUHealthComponent_IsDead_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage_Statics
 	{
@@ -121,6 +166,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_ShootThemUp,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_USTUHealthComponent_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_USTUHealthComponent_IsDead, "IsDead" }, // 2969195315
 		{ &Z_Construct_UFunction_USTUHealthComponent_OnTakeAnyDamage, "OnTakeAnyDamage" }, // 3192997583
 	};
 #if WITH_METADATA
@@ -168,7 +214,7 @@ void EmptyLinkFunctionForGeneratedCodeSTUHealthComponent() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(USTUHealthComponent, 3926433588);
+	IMPLEMENT_CLASS(USTUHealthComponent, 773106642);
 	template<> SHOOTTHEMUP_API UClass* StaticClass<USTUHealthComponent>()
 	{
 		return USTUHealthComponent::StaticClass();

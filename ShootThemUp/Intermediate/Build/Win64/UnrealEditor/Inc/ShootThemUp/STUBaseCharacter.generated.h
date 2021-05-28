@@ -70,7 +70,8 @@ public: \
 	FORCEINLINE static uint32 __PPO__CameraComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, CameraComponent); } \
 	FORCEINLINE static uint32 __PPO__SpringArmComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, SpringArmComponent); } \
 	FORCEINLINE static uint32 __PPO__HealthComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, HealthComponent); } \
-	FORCEINLINE static uint32 __PPO__HealthTextComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, HealthTextComponent); }
+	FORCEINLINE static uint32 __PPO__HealthTextComponent() { return STRUCT_OFFSET(ASTUBaseCharacter, HealthTextComponent); } \
+	FORCEINLINE static uint32 __PPO__DeathAnimMonatage() { return STRUCT_OFFSET(ASTUBaseCharacter, DeathAnimMonatage); }
 
 
 #define ShootThemUp_Source_ShootThemUp_Public_Player_STUBaseCharacter_h_14_PROLOG

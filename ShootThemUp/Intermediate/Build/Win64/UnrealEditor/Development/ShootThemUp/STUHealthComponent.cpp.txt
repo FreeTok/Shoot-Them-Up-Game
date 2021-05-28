@@ -1,7 +1,3 @@
 D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\Definitions.ShootThemUp.h
 D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Public\Components/STUHealthComponent.h
 D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Inc\ShootThemUp\STUHealthComponent.generated.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Public\Dev/STUFireDamageType.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Inc\ShootThemUp\STUFireDamageType.generated.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Source\ShootThemUp\Public\Dev/STUIceDamageType.h
-D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Inc\ShootThemUp\STUIceDamageType.generated.h

@@ -34,8 +34,11 @@ protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     USTUHealthComponent* HealthComponent;
 
-    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components", meta = (UIMin = "0.0", UIMax = "10.0"))
+    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     UTextRenderComponent* HealthTextComponent;
+
+    UPROPERTY(EditDefaultsOnly, Category = "Animation")
+    UAnimMontage* DeathAnimMonatage;
 
 public:
     // Called every frame
@@ -51,4 +54,6 @@ private:
     void MoveRight(float Amount);
     void StartSprinting();
     void EndSprinting();
+    void OnDeath();
+    void OnHealthChanged(float Health);
 };
