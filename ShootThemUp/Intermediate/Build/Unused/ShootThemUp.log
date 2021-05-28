@@ -2,16 +2,16 @@
   operable program or batch file.
   Win64 using Manual SDK 10.0.18362.0
   Using 'git status' to determine working set for adaptive non-unity build (D:\My Games\Shoot-Them-Up-Game).
-  Invalidating makefile for ShootThemUpEditor (STUBaseCharacter.cpp modified)
+  Invalidating makefile for ShootThemUpEditor (STUHealthComponent.cpp modified)
   Building ShootThemUpEditor...
   Using Visual Studio 2019 14.28.29915 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  [Adaptive Build] Excluded from ShootThemUp unity file: STUBaseCharacter.cpp
+  [Adaptive Build] Excluded from ShootThemUp unity file: STUHealthComponent.cpp, STUBaseCharacter.cpp
   Building 4 actions with 12 processes...
-    [1/4] STUBaseCharacter.cpp
+    [1/4] STUHealthComponent.cpp
     [2/4] UnrealEditor-ShootThemUp.lib
        Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp.exp
     [3/4] UnrealEditor-ShootThemUp.dll
        Creating library D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp.suppressed.lib and object D:\My Games\Shoot-Them-Up-Game\ShootThemUp\Intermediate\Build\Win64\UnrealEditor\Development\ShootThemUp\UnrealEditor-ShootThemUp.suppressed.exp
     [4/4] ShootThemUpEditor.target
-  Total time in Parallel executor: 31,38 seconds
-  Total execution time: 33,19 seconds
+  Total time in Parallel executor: 4,30 seconds
+  Total execution time: 6,14 seconds
