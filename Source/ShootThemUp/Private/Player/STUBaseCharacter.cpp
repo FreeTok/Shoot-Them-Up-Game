@@ -9,10 +9,12 @@
 #include "Components/TextRenderComponent.h"
 #include "GameFramework/Controller.h"
 #include "Weapon/STUBaseWeapon.h"
+#include "Components/STUCharacterMovementComponent.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogBaseCharacter, All, All)
 
-ASTUBaseCharacter::ASTUBaseCharacter()
+ASTUBaseCharacter::ASTUBaseCharacter(const FObjectInitializer& ObjInit)
+    : Super(ObjInit.SetDefaultSubobjectClass<USTUCharacterMovementComponent>(ACharacter::CharacterMovementComponentName))   
 {
     PrimaryActorTick.bCanEverTick = true;
 
@@ -63,14 +65,20 @@ void ASTUBaseCharacter::SetupPlayerInputComponent(UInputComponent* PlayerInputCo
     PlayerInputComponent->BindAxis("LookUp", this, &ASTUBaseCharacter::AddControllerPitchInput);
     PlayerInputComponent->BindAxis("TurnAround", this, &ASTUBaseCharacter::AddControllerYawInput);
     PlayerInputComponent->BindAction("Jump", IE_Pressed, this, &ASTUBaseCharacter::Jump);
-    PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ASTUBaseCharacter::StartSprinting);
-    PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ASTUBaseCharacter::EndSprinting);
+    PlayerInputComponent->BindAction("Sprint", IE_Pressed, this, &ASTUBaseCharacter::OnStartRunning);
+    PlayerInputComponent->BindAction("Sprint", IE_Released, this, &ASTUBaseCharacter::OnEndRunning);
+}
+
+bool ASTUBaseCharacter::IsRunning() const
+{
+    return WantsToRun && IsMovingForward && !GetVelocity().IsZero();
 }
 
 void ASTUBaseCharacter::MoveForward(float Amount)
 {
     if (Amount == 0.f)
         return;
+    IsMovingForward = Amount > 0.f;
     AddMovementInput(GetActorForwardVector(), Amount);
 }
 
@@ -81,14 +89,14 @@ void ASTUBaseCharacter::MoveRight(float Amount)
     AddMovementInput(GetActorRightVector(), Amount);
 }
 
-void ASTUBaseCharacter::StartSprinting()
+void ASTUBaseCharacter::OnStartRunning()
 {
-    bIsSprinting = true;
+    WantsToRun = true;
 }
 
-void ASTUBaseCharacter::EndSprinting()
+void ASTUBaseCharacter::OnEndRunning()
 {
-    bIsSprinting = false;
+    WantsToRun = false;
 }
 
 float ASTUBaseCharacter::GetMovementDirection() const
@@ -123,7 +131,7 @@ void ASTUBaseCharacter::OnHealthChanged(float Health)
     HealthTextComponent->SetText(FText::FromString(FString::Printf(TEXT("%.0f"), Health)));
 }
 
-void ASTUBaseCharacter::OnGroundLanded(const FHitResult& Hit) 
+void ASTUBaseCharacter::OnGroundLanded(const FHitResult& Hit)
 {
     const auto FallVelocityZ = -GetVelocity().Z;
     UE_LOG(LogBaseCharacter, Warning, TEXT("On landed %f"), FallVelocityZ);
@@ -136,7 +144,7 @@ void ASTUBaseCharacter::OnGroundLanded(const FHitResult& Hit)
     TakeDamage(FinalDamage, FDamageEvent{}, nullptr, nullptr);
 }
 
-void ASTUBaseCharacter::SpawnWeapon() 
+void ASTUBaseCharacter::SpawnWeapon()
 {
     if (!GetWorld())
         return;

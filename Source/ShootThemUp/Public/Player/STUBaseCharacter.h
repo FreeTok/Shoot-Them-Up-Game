@@ -18,10 +18,7 @@ class SHOOTTHEMUP_API ASTUBaseCharacter : public ACharacter
     GENERATED_BODY()
 
 public:
-    ASTUBaseCharacter();
-
-    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Locomotion")
-    bool bIsSprinting;
+    ASTUBaseCharacter(const FObjectInitializer& ObjInit);
 
 protected:
     virtual void BeginPlay() override;
@@ -59,6 +56,9 @@ public:
     virtual void SetupPlayerInputComponent(class UInputComponent* PlayerInputComponent) override;
 
     UFUNCTION(BlueprintCallable, Category = "Movement")
+    bool IsRunning() const;
+
+    UFUNCTION(BlueprintCallable, Category = "Movement")
     float GetMovementDirection() const;
 
 private:
@@ -68,11 +68,14 @@ private:
     void MoveForward(float Amount);
     void MoveRight(float Amount);
 
-    void StartSprinting();
-    void EndSprinting();
+    void OnStartRunning();
+    void OnEndRunning();
 
     void OnDeath();
     void OnHealthChanged(float Health);
 
     void SpawnWeapon();
+
+    bool WantsToRun = false;
+    bool IsMovingForward = false;
 };
