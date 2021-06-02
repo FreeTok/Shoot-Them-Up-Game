@@ -6,6 +6,7 @@
 #include "DrawDebugHelpers.h"
 #include "GameFramework/Character.h"
 #include "GameFramework/Controller.h"
+#include "Components/STUHealthComponent.h"
 
 DEFINE_LOG_CATEGORY_STATIC(LogBaseWeapon, All, All)
 
@@ -47,6 +48,11 @@ void ASTUBaseWeapon::MakeShot()
             DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), HitResult.ImpactPoint, DebugColor, false, 3.f, 0, DebugLineThickness);
 
             DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.f, 24, DebugColor, false, 5.f);
+            
+            const auto DamadegCharacter = HitResult.GetActor();
+            if (!DamadegCharacter)
+                return;
+            DamadegCharacter->TakeDamage(Damage, FDamageEvent{}, GetPlayerController(), GetOwner());
         }
         else
         {
