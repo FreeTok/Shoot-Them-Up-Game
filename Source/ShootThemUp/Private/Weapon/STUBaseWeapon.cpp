@@ -25,7 +25,6 @@ void ASTUBaseWeapon::BeginPlay()
 
 void ASTUBaseWeapon::Fire()
 {
-    UE_LOG(LogBaseWeapon, Warning, TEXT("Fire!"));
     MakeShot();
 }
 
@@ -60,12 +59,16 @@ void ASTUBaseWeapon::MakeShot()
 
     if (HitResult.bBlockingHit)
     {
-        DrawDebugLine(GetWorld(), SocketTransform.GetLocation(), HitResult.ImpactPoint, DebugColor, false, 3.f, 0, DebugLineThickness);
+        if (FVector::CrossProduct(SocketTransform.GetLocation(), HitResult.ImpactPoint).X <= 0.f)
+        {
+            DrawDebugLine(GetWorld(), SocketTransform.GetLocation(), HitResult.ImpactPoint, DebugColor, false, 3.f, 0, DebugLineThickness);
 
-        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.f, 24, DebugColor, false, 5.f);
+            DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.f, 24, DebugColor, false, 5.f);
 
-        UE_LOG(LogBaseWeapon, Warning, TEXT("Bone: %s"), *HitResult.BoneName.ToString());
+            UE_LOG(LogBaseWeapon, Display, TEXT("Bone: %s"), *HitResult.BoneName.ToString());
+        }
     }
+
     else
     {
         DrawDebugLine(GetWorld(), SocketTransform.GetLocation(), TraceEnd, DebugColor, false, 3.f, 0, DebugLineThickness);
