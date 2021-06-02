@@ -16,9 +16,25 @@ class SHOOTTHEMUP_API ASTUBaseWeapon : public AActor
 public:
     ASTUBaseWeapon();
 
+    virtual void Fire();
+
 protected:
     virtual void BeginPlay() override;
 
+    void MakeShot();
+
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     USkeletalMeshComponent* WeaponMeshComponent;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "WeaponSettings")
+    FName MuzzleSocketName = "MuzzleSocket";
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "1.0", ClampMax = "10000.0"))
+    float TraceMaxDistance = 1500.f;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "WeaponSettings");
+    FColor DebugColor = FColor::Red;
+
+    UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "1.0", ClampMax = "100.0"))
+    float DebugLineThickness = 3.f;
 };

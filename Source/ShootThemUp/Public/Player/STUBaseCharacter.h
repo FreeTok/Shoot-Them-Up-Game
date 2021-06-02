@@ -10,7 +10,7 @@ class UCameraComponent;
 class USpringArmComponent;
 class USTUHealthComponent;
 class UTextRenderComponent;
-class ASTUBaseWeapon;
+class USTUWeaponComponent;
 
 UCLASS()
 class SHOOTTHEMUP_API ASTUBaseCharacter : public ACharacter
@@ -35,6 +35,9 @@ protected:
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     UTextRenderComponent* HealthTextComponent;
 
+    UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
+    USTUWeaponComponent* WeaponComponent;
+
     UPROPERTY(EditDefaultsOnly, Category = "Animation")
     UAnimMontage* DeathAnimMonatage;
 
@@ -46,9 +49,6 @@ protected:
 
     UPROPERTY(EditDefaultsOnly, Category = "Damage")
     FVector2D LandedDamage = FVector2D(10.f, 100.f);
-
-    UPROPERTY(EditDefaultsOnly, Category = "Weapons")
-    TSubclassOf<ASTUBaseWeapon> WeaponClass;
 
 public:
     virtual void Tick(float DeltaTime) override;
@@ -73,8 +73,6 @@ private:
 
     void OnDeath();
     void OnHealthChanged(float Health);
-
-    void SpawnWeapon();
 
     bool WantsToRun = false;
     bool IsMovingForward = false;
