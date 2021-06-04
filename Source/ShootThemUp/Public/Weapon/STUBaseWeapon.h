@@ -41,12 +41,8 @@ protected:
     UPROPERTY(EditDefaultsOnly, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "1.0", ClampMax = "100.0"))
     float DebugLineThickness = 3.f;
 
-    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "1.0", ClampMax = "1000.0"))
-    float Damage = 10.f;
-
     APlayerController* GetPlayerController() const;
     bool GetPlayerViewPoint(FVector& Location, FRotator& ViewRotation) const;
     FVector GetMuzzleWorldLocation() const;
     void MakeHit(FHitResult& HitResult, const FVector& TraceStart, const FVector& TraceEnd);
-
 };

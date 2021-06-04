@@ -25,6 +25,9 @@ protected:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "0.0", ClampMax = "100.0"))
     float BulletSpread = 1.5f;
 
+    UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "1.0", ClampMax = "1000.0"))
+    float Damage = 10.f;
+
 private:
     FTimerHandle ShotTimerHandle;
 };
