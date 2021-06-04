@@ -16,12 +16,15 @@ class SHOOTTHEMUP_API ASTUBaseWeapon : public AActor
 public:
     ASTUBaseWeapon();
 
-    virtual void Fire();
+    virtual void StartFire();
+    virtual void StopFire();
 
 protected:
     virtual void BeginPlay() override;
 
-    void MakeShot();
+    virtual void MakeShot();
+
+    virtual bool GetTraceData(FVector& TraceStart, FVector& TraceEnd) const;
 
     UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Components")
     USkeletalMeshComponent* WeaponMeshComponent;
@@ -41,10 +44,9 @@ protected:
     UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "WeaponSettings", meta = (ClampMin = "1.0", ClampMax = "1000.0"))
     float Damage = 10.f;
 
-private:
     APlayerController* GetPlayerController() const;
     bool GetPlayerViewPoint(FVector& Location, FRotator& ViewRotation) const;
     FVector GetMuzzleWorldLocation() const;
-    bool GetTraceData(FVector& TraceStart, FVector& TraceEnd) const;
     void MakeHit(FHitResult& HitResult, const FVector& TraceStart, const FVector& TraceEnd);
+
 };

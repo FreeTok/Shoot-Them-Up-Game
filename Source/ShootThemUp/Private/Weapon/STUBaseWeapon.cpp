@@ -24,39 +24,19 @@ void ASTUBaseWeapon::BeginPlay()
     check(WeaponMeshComponent);
 }
 
-void ASTUBaseWeapon::Fire()
+void ASTUBaseWeapon::StartFire()
 {
-    MakeShot();
+
+}
+
+void ASTUBaseWeapon::StopFire()
+{
+
 }
 
 void ASTUBaseWeapon::MakeShot()
 {
-    if (!GetWorld())
-        return;
 
-    FVector TraceStart, TraceEnd;
-    if (!GetTraceData(TraceStart, TraceEnd))
-        return;
-
-    FHitResult HitResult;
-    MakeHit(HitResult, TraceStart, TraceEnd);
-
-    if (HitResult.bBlockingHit)
-    {
-        DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), HitResult.ImpactPoint, DebugColor, false, 3.f, 0, DebugLineThickness);
-
-        DrawDebugSphere(GetWorld(), HitResult.ImpactPoint, 10.f, 24, DebugColor, false, 5.f);
-
-        const auto DamadegCharacter = HitResult.GetActor();
-        if (!DamadegCharacter)
-            return;
-        DamadegCharacter->TakeDamage(Damage, FDamageEvent{}, GetPlayerController(), GetOwner());
-    }
-
-    else
-    {
-        DrawDebugLine(GetWorld(), GetMuzzleWorldLocation(), TraceEnd, DebugColor, false, 3.f, 0, DebugLineThickness);
-    }
 }
 
 APlayerController* ASTUBaseWeapon::GetPlayerController() const
